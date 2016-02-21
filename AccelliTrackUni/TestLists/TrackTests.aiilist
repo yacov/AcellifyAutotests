@@ -1,0 +1,254 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
+  "__value": {
+    "TestListId": "d3ca1474-d4fb-4689-8885-baaefa0ca913",
+    "Id": "d3ca1474-d4fb-4689-8885-baaefa0ca913",
+    "TestListName": "TrackTests",
+    "CreationDate": "2016-02-04T15:07:28",
+    "OwnerName": null,
+    "Settings": {
+      "__type": "ArtOfTest.WebAii.Core.Settings",
+      "__value": {
+        "Web": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
+          "__value": {
+            "IsProfilingExecution": false,
+            "ExecutingBrowsers": [],
+            "UseMultiBrowserExecution": false,
+            "RecycleBrowser": false,
+            "AspNetDevServerPort": -1,
+            "LocalWebServer": 0,
+            "EnableUILessRequestViewing": false,
+            "WebAppPhysicalPath": "",
+            "DefaultBrowser": 1,
+            "EnableScriptLogging": false,
+            "BaseUrl": "http://va.acceliqc.com",
+            "KillBrowserProcessOnClose": false,
+            "UseHttpProxy": false,
+            "EnableSilverlight": false,
+            "VerboseHttpProxy": false,
+            "SilverlightConnectTimeout": 60000,
+            "SilverlightApplicationPath": null
+          }
+        },
+        "Wpf": {
+          "__type": "ArtOfTest.WebAii.Core.Settings+WpfSettings",
+          "__value": {
+            "DefaultApplicationPath": null
+          }
+        },
+        "CreateLogFile": true,
+        "LogLocation": "C:\\WebAiiLog\\",
+        "QueryEventLogErrorsOnExit": false,
+        "LogAnnotations": true,
+        "SimulatedMouseMoveSpeed": 0.3,
+        "WaitCheckInterval": 500,
+        "ElementWaitTimeout": 30000,
+        "ExecuteCommandTimeout": 20000,
+        "ExecutionDelay": 200,
+        "UnexpectedDialogAction": 1,
+        "AnnotateExecution": true,
+        "AnnotationMode": 2,
+        "XMultiMgr": true,
+        "ClientReadyTimeout": 60000,
+        "DisableDialogMonitoring": false
+      }
+    },
+    "Tests": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "3f060866-c55c-4142-a210-26fe40a8f607",
+          "Path": "Track\\TestTrack\\Login\\LoginPositive.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "7cc6537c-7f5c-4175-9b66-10a8e4f755c8",
+          "Path": "Track\\TestTrack\\Login\\LoginNegativeDataDriven.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "72e175e9-af0b-4588-a9bb-d6198111bde3",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3011School\\30111CreateSchoolPositive.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "a951d538-44b5-454e-81e9-327f81d1b616",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3011School\\30112CreateSchoolNegativeNoName.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "1205242a-6e64-4f58-8b7e-9551cdf1f1a2",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3011School\\30113CreateSchoolNegativeNoID.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "e25d4f01-495c-4aba-b094-b5e649cb09e0",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3031User\\30311CreateUserPositiv.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "d28c4182-2ae2-41da-b38e-48db21967791",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3031User\\30312CreateUserNegativeNoFirstName.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "10a8e931-5683-4a6a-8bc8-cb0dbc3e45a3",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3031User\\30313CreateUserNegativeNoLastName.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "fd6e6ebc-9cdd-4f8b-a697-3139e4808771",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3031User\\30314CreateUserNegativeNoPassword.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "96e25cbd-725e-40d4-936e-dca42b6cb08f",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3031User\\30315CreateUserNegativeNoUsername.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "35cf096b-a901-4d23-85c3-459cf1982c23",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3031User\\30316CreateUserNegativSameID.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "4146dda1-aee5-4602-9e78-8892cb7c942e",
+          "Path": "Track\\TestTrack\\TRACK.POC.7.0.1\\CreateNewRecordPositiveTest.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "77496b8e-1a26-44e9-96e8-2da257048bdd",
+          "Path": "Track\\TestTrack\\TRACK.POC.7.0.1\\CreateNewRecordNegativeNoDate1Test.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "d7d20496-409f-46db-ad15-8f7da046ece9",
+          "Path": "Track\\TestTrack\\TRACK.POC.7.0.1\\CreateNewRecordNegativeNonSignedTest.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "a2d4b313-f55b-41d8-ad80-aa0e5aefe189",
+          "Path": "Track\\TestTrack\\TRACK.POC.7.0.1\\CreateNewRecordNegativeNoStudentSelected.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "be9ede04-45f2-4807-bc53-b9ab77d7c062",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30211AddProviderPositiv.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "535c28be-efe5-4399-8f15-c01f70159e4a",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30212AddProviderNegativeNoFirstName.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "4b9bb267-2726-4886-a160-674d191e700c",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30213AddProviderNegativeNoID.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "56ff8ab9-e995-4eec-94aa-d67f855cdccb",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30214AddProviderNegativeNoLastName .tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "ba634fe4-55d9-4d79-8d92-9c5c97039afa",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30215AddProviderNegativeNoPassConfirm.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "b24d490d-d046-4983-9588-625b93730193",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30216AddProviderNegativeNoPassword.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "8d38b61b-03f5-4be1-8912-b99bca9a0f9c",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30217AddProviderNegativeNoProviderType.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "14a1d896-8063-4ef2-85e8-0a97be1a9946",
+          "Path": "Track\\TestTrack\\TRACK.ADM.3.0\\3021Provider\\30218AddProviderNegativeNoUserName.tstest",
+          "PathType": 0
+        }
+      }
+    ],
+    "Filter": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
+      "__value": {
+        "Keys": [],
+        "Comparisons": [],
+        "Values": []
+      }
+    },
+    "ListType": 0,
+    "ProjectId": "da260b84-0f05-48db-870e-0693f7d5bba9"
+  }
+}
