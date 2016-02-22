@@ -601,7 +601,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9c0ce8ea-8312-4276-9e1e-00ad93be66f1",
-            "Description": "Click 'AddLink'",
+            "Description": "Click 'AddLink0'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -649,10 +649,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "ITEoHiCYAkBpcxGkutN/EOYVxcU=",
+                          "uniqueKey": "nFPCRLARDpkaVnUCm8MQ+FCxEYY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "AddLink",
+                          "Name": "AddLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -663,17 +663,45 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "xpath=/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]"
+                                        "Clause": "id=pnlCaseloadStudents"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagindex=tr:1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=td:6"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "title=Add"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1,
+                                    2,
+                                    3
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1133,7 +1161,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "hX3JleP2QEF79g8UXr0t1S5XnWw=",
+                          "uniqueKey": "69RsR2AKnZi3NagZTLMM235/DOQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "RemoveLink",
@@ -1147,17 +1175,39 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "xpath=/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]"
+                                        "Clause": "id=~pnlCaseload"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagindex=tr:1"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=td:6"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=a"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1,
+                                    2,
+                                    3
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1625,10 +1675,10 @@
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
-              "uniqueKey": "ITEoHiCYAkBpcxGkutN/EOYVxcU=",
+              "uniqueKey": "nFPCRLARDpkaVnUCm8MQ+FCxEYY=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "AddLink",
+              "Name": "AddLink0",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -1639,17 +1689,45 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "xpath=/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]"
+                            "Clause": "id=pnlCaseloadStudents"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagindex=tr:1"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TagIndex=td:6"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TagName=a"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "title=Add"
                           }
                         }
                       ],
                       "Constraints": [],
-                      "ChainStops": []
+                      "ChainStops": [
+                        1,
+                        2,
+                        3
+                      ]
                     }
                   }
                 }
               ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
               "DataBindingExpressions": {}
             }
           },
