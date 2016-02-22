@@ -79,7 +79,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
-                "BaseUrl": "broward.acceliqc.com",
+                "BaseUrl": "http://hampton.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -117,12 +117,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "80134f35-4ebb-47a2-abd2-aae00e8a8a02",
-            "Description": "Enter text 'TestProv' in 'UserNameField'",
+            "Description": "Enter text 'Provider11' in 'UserNameField'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "TestProv",
+                "RawText": "Provider11",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,

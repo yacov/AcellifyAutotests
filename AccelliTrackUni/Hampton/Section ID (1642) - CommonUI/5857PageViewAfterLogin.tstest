@@ -194,7 +194,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section ID (1643) - CommonUI\\5857PageViewAfterLogin.resx",
+    "ResourceFilePath": "Hampton\\Section ID (1642) - CommonUI\\5857PageViewAfterLogin.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -228,7 +228,7 @@
     "Description": "",
     "Name": "5857PageViewAfterLogin",
     "Owner": "",
-    "Path": "Hampton\\Section ID (1643) - CommonUI\\5857PageViewAfterLogin.tstest",
+    "Path": "Hampton\\Section ID (1642) - CommonUI\\5857PageViewAfterLogin.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "4df1c21a-8ec7-441b-9810-8e6fb92a16ae",

@@ -3130,6 +3130,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
+    "CustomProperty2": "hampton",
     "TestLinks": [],
     "Description": "",
     "Name": "CheckRegion",
