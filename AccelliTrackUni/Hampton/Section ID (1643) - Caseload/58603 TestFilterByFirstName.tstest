@@ -984,7 +984,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b46858e9-4a11-441d-95b5-12df1b126a5b",
-            "Description": "KendoPanel 'Filter' 'open' action.",
+            "Description": "Open Filter section",
             "CustomDescription": "Open Filter section",
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.PanelBar.KendoPanelToggleState",
@@ -1034,7 +1034,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "uxriIj07p7gELj90mTcNAdbqQb8=",
+                          "uniqueKey": "uHibieQL2vM3oWf0mlwEfh8G0SQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ListItem",
@@ -1054,12 +1054,6 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=0"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
                                         "Clause": "TagName=li"
                                       }
                                     },
@@ -1072,13 +1066,13 @@
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    2
+                                    1
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[1]",
                           "DataBindingExpressions": {}
                         }
                       },

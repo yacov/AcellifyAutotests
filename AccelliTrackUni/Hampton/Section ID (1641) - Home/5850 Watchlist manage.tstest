@@ -225,7 +225,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/IEP/Administration/WatchlistManager",
-                "BaseUrl": "https://hampton-pilot.acceliplan.com",
+                "BaseUrl": "https://hampton-pilot.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
