@@ -163,7 +163,7 @@
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
     "SimulateRealSilverlightUserByDefault": true,
-    "DefaultDropDownSelection": 1,
+    "DefaultDropDownSelection": 0,
     "QuickExecutionElementWaitTimeout": 30000,
     "QuickExecutionClientReadyTimeout": 60000,
     "QcServerUrl": null,
@@ -209,12 +209,45 @@
     "ExcludedFiles": [],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
-    "BugTrackerPersistableSettings": {},
-    "ActiveBugTrackers": [],
-    "BugTitleMask": "{Step name} step on {Test name} test failed.",
+    "BugTrackerPersistableSettings": {
+      "JIRA Server": {
+        "__type": "Telerik.TestStudio.Jira.BugTracking.JiraConnectionModel",
+        "__value": {
+          "ServerName": "https://jira.intetics.com",
+          "User": "ivolf@accelify.com",
+          "Password": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.Base64String",
+            "__value": {
+              "Base64value": "YTJRNmZWODkhTQ=="
+            }
+          },
+          "SelectedProject": {
+            "__type": "Telerik.TestStudio.Jira.BugTracking.JiraProject",
+            "__value": {
+              "self": "https://jira.intetics.com/rest/api/2/project/10154",
+              "id": 10154,
+              "key": "CWAFHFC",
+              "name": "CW-0575-2 (AcceliTrack)",
+              "avatarUrls": {
+                "16x16": "https://jira.intetics.com/secure/projectavatar?size=xsmall&pid=10154&avatarId=10011",
+                "24x24": "https://jira.intetics.com/secure/projectavatar?size=small&pid=10154&avatarId=10011",
+                "32x32": "https://jira.intetics.com/secure/projectavatar?size=medium&pid=10154&avatarId=10011",
+                "48x48": "https://jira.intetics.com/secure/projectavatar?pid=10154&avatarId=10011"
+              }
+            }
+          },
+          "CurrentVersion": "2015.3.1314.0",
+          "XmlBlob": null
+        }
+      }
+    },
+    "ActiveBugTrackers": [
+      "JIRA Server"
+    ],
+    "BugTitleMask": "{0} step on {1} test failed.",
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
-    "BugDescriptionMask": "{Description}",
+    "BugDescriptionMask": "{0}",
     "SelectedBrowserOption": 2
   }
 }
