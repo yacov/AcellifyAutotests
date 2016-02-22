@@ -136,7 +136,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e9924c61-a2c6-4e55-a2ce-fb335f37c1b8",
-            "Description": "Click 'AARHUSMETIASTableCell'",
+            "Description": "Click 'StudentNameCell'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -187,7 +187,7 @@
                           "uniqueKey": "FlTGQZFzJLKP6tUKSKYaaIlh9Jo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "AARHUSMETIASTableCell",
+                          "Name": "StudentNameCell",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -981,7 +981,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "cde26cb4-307e-4e9d-8c84-96b2ba9ff3d1",
-            "Description": "Click 'PlcContentPlcContentPlcContentCtlServiceDetailsEntryBtnSaveAndNewLink'",
+            "Description": "Click 'SaveAndNewButton'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1032,7 +1032,7 @@
                           "uniqueKey": "4DboNZKtf5rYEEIId87M2dV6jkI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentPlcContentPlcContentCtlServiceDetailsEntryBtnSaveAndNewLink",
+                          "Name": "SaveAndNewButton",
                           "FindExpressions": [
                             {
                               "Key": 1,

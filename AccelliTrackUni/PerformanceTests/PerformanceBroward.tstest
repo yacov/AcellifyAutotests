@@ -4,10 +4,10 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": null,
+    "ProfilerResultsDirectory": "C:\\Development\\Leo\\Results\\PerformanceResults",
     "ProfilerServerName": null,
-    "ProfilerBenchmarkResultsFilePath": null,
-    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerBenchmarkResultsFilePath": "C:\\Development\\Leo\\Results\\PerformanceResults\\131006071887556856 PerformanceBroward.tsperf",
+    "ProfilerBenchmarkResultsId": "59d5989c-3dea-468e-92d6-1ef241e01eef",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
     "CurrentReferences": [
@@ -26,18 +26,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "04e07bee-18f8-4dda-9742-ce7b698a67e0",
-            "Description": "Navigate to : '/AcceliTrack/ServiceManagerEntry.aspx'",
+            "Runtime ID": "2cfa4d20-cd0f-4621-8700-7b786b0f1b67",
+            "Description": "Clear Browser Cache",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClearCookiesActionDescriptor",
               "__value": {
-                "UseDecodedUrl": true,
-                "NavigateURL": "/AcceliTrack/ServiceManagerEntry.aspx",
-                "BaseUrl": "",
+                "ClearCookies": true,
+                "ClearTempFiles": true,
+                "ClearHistory": true,
+                "WaitOnElements": false,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -47,9 +47,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {},
@@ -64,7 +62,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Create servicezlqscsum.fvk",
+            "StepImageKey": "PerformanceBrowardynqlpl44.xxf",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -73,8 +71,53 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1f361ecc-0ffc-43f0-bb43-338c4f56d8c6",
-            "Description": "Enter text 'superlion' in 'PlcContentLoginControlUserNameText'",
+            "Runtime ID": "3d8affb1-ead0-4988-9324-b6a559ce8502",
+            "Description": "Navigate to : '/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "/",
+                "BaseUrl": "http://broward.acceliqc.com",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "PerformanceBroward55bzd1cb.1hl",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "a2cedc74-9080-477f-b086-2895be6e5806",
+            "Description": "Enter text 'superlion' in 'UserName'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -85,15 +128,15 @@
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "SU",
-                  "TypedText": "SU",
-                  "CaretPosition": 2,
+                  "ElementText": "n",
+                  "TypedText": "",
+                  "CaretPosition": 1,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
                 "Encrypt": false,
                 "SupportUnicode": true,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -105,9 +148,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -120,14 +161,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Login.aspx",
-                          "Query": "?ReturnUrl=%2fAcceliTrack%2fServiceManagerEntry.aspx",
-                          "BaseUrl": "http://broward.acceliqc.com",
+                          "Query": "",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Login",
-                          "CompareMode": 4,
+                          "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login4"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -138,7 +179,7 @@
                           "uniqueKey": "KTDLkTkRmO+Oi2eYXsNQru48AQU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentLoginControlUserNameText",
+                          "Name": "UserName",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -185,12 +226,12 @@
                 "_cipher": null
               }
             },
-            "Enabled": false,
-            "Order": 2,
+            "Enabled": true,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Create servicekqlk2clr.45e",
+            "StepImageKey": "PerformanceBrowardeoqrvvnd.ww1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -199,8 +240,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6b1dfb8d-9ec2-4f33-98d2-ff053a452cc7",
-            "Description": "Enter text 'CTAKAH' in 'PlcContentLoginControlPasswordPassword'",
+            "Runtime ID": "76647fb8-b94c-446f-80fb-135cf8d06ba4",
+            "Description": "Enter text 'CTAKAH' in 'Pass'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -211,15 +252,15 @@
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "C",
-                  "TypedText": "CN",
+                  "ElementText": "s",
+                  "TypedText": "",
                   "CaretPosition": 1,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
                 "Encrypt": false,
                 "SupportUnicode": true,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -231,9 +272,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -246,14 +285,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Login.aspx",
-                          "Query": "?ReturnUrl=%2fAcceliTrack%2fServiceManagerEntry.aspx",
-                          "BaseUrl": "http://broward.acceliqc.com",
+                          "Query": "",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Login",
-                          "CompareMode": 4,
+                          "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login4"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -264,7 +303,7 @@
                           "uniqueKey": "eUgtFHl8NiMq3z28MQf+uegHQrM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentLoginControlPasswordPassword",
+                          "Name": "Pass",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -311,12 +350,12 @@
                 "_cipher": null
               }
             },
-            "Enabled": false,
-            "Order": 3,
+            "Enabled": true,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Create servicenfgk2d4q.ixe",
+            "StepImageKey": "PerformanceBrowardmvosvle3.5b2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -325,14 +364,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "1d48d595-41d5-47de-8196-edc638de9256",
-            "Description": "Click 'PlcContentLoginControlLnkLoginImage'",
+            "Runtime ID": "65d66a15-5d38-468b-972c-be450fa6a911",
+            "Description": "Click 'LoginButton'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -344,9 +383,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -359,14 +396,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Login.aspx",
-                          "Query": "?ReturnUrl=%2fAcceliTrack%2fServiceManagerEntry.aspx",
-                          "BaseUrl": "http://broward.acceliqc.com",
+                          "Query": "",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Login",
-                          "CompareMode": 4,
+                          "CompareMode": 1,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login4"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -377,7 +414,7 @@
                           "uniqueKey": "Wt04BafAQsGpG9J+uSq4cR4wYAQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentLoginControlLnkLoginImage",
+                          "Name": "LoginButton",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -422,12 +459,59 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": false,
-            "Order": 4,
+            "Enabled": true,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Create serviceot2wufb4.g3v",
+            "StepImageKey": "PerformanceBrowardaitvsq4s.bb2",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "04e07bee-18f8-4dda-9742-ce7b698a67e0",
+            "Description": "Navigate to : '/AcceliTrack/ServiceManagerEntry.aspx'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "/AcceliTrack/ServiceManagerEntry.aspx",
+                "BaseUrl": "http://broward.acceliqc.com",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Create servicezlqscsum.fvk",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -534,10 +618,10 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "Create servicemeu5m1qz.1i2",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -643,10 +727,10 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "Create serviceyfv3uoez.vzc",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -656,8 +740,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a4699fcb-2da7-42f9-9b70-ea5f619753ae",
-            "Description": "Execute test 'ChooseStCrServ'",
+            "Runtime ID": "02d6fce8-4627-4d3f-8d96-c2787f7b9f4d",
+            "Description": "Execute test 'ChooseStCrServPerf'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -665,9 +749,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "ChooseStCrServ",
-                "TestPath": "Track\\TestTrack\\Service\\ChooseStCrServ.tstest",
-                "TestUniqueId": "de8ce7e6-24d8-43e1-9b5a-588bfb28e49e",
+                "TestName": "ChooseStCrServPerf",
+                "TestPath": "PerformanceTests\\ChooseStCrServPerf.tstest",
+                "TestUniqueId": "bd4c568d-d224-490b-9b97-199b720281b4",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -684,11 +768,11 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "Create servicepfcqrim4.uuj",
+            "StepImageKey": "PerformanceBrowardm35xuggr.b0i",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -710,7 +794,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Track\\TestTrack\\Service\\Create service.resx",
+    "ResourceFilePath": "PerformanceTests\\PerformanceBroward.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -740,13 +824,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Create service",
+    "Name": "PerformanceBroward",
     "Owner": "",
-    "Path": "Track\\TestTrack\\Service\\Create service.tstest",
+    "Path": "PerformanceTests\\PerformanceBroward.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "f4d7ce69-caa9-471f-a8a2-0991191984c7",
-    "Id": "f4d7ce69-caa9-471f-a8a2-0991191984c7",
+    "UniqueId": "02469485-b5b7-4b5a-ac35-ce0bdd3f9c9f",
+    "Id": "02469485-b5b7-4b5a-ac35-ce0bdd3f9c9f",
     "ProjectId": "da260b84-0f05-48db-870e-0693f7d5bba9",
     "Version": 200
   }
