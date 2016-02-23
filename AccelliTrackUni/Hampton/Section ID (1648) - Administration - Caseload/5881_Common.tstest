@@ -67,8 +67,137 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "1d482da4-c7ef-429b-b63e-3aa81959bb63",
+            "Description": "Wait for 'UserIDLink'",
+            "CustomDescription": "Wait for 'UserIDLink'",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "User ID",
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://hampton.acceliqc.com/IEP/Administration/CaseloadManager",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Caseload Manager",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyCaseloadManager"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "k/umOP77tUHZlWovpwEjsm3RA6k=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "UserIDLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pnlUsers"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagindex=th:0"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "data-field=UniqueId"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1,
+                                    3
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "5881_Commonyu0az2fr.vla",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "96137b86-61b2-4f40-8fef-d8106019d51b",
-            "Description": "Verify 'TextContent' 'Contains' 'User ID'",
+            "Description": "Verify that Users Table Header 'User ID'",
             "CustomDescription": "Verify that Users Table Header 'User ID'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -119,7 +248,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "zZVOLsphKegO/XUv+u7znB5iBdI=",
+                          "uniqueKey": "k/umOP77tUHZlWovpwEjsm3RA6k=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "UserIDLink",
@@ -147,17 +276,24 @@
                                       "__value": {
                                         "Clause": "data-field=UniqueId"
                                       }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    3
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -176,7 +312,7 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -190,7 +326,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a76e6d23-3f08-41e5-b28b-cfb3a031ca69",
-            "Description": "Verify 'TextContent' 'Contains' 'Username' ",
+            "Description": "Verify 'that Users Table Header' 'Contains' 'Username' ",
             "CustomDescription": "Verify 'that Users Table Header' 'Contains' 'Username' ",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -241,7 +377,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "0KTm4KGvDsgzaErSV1lhLuaaY+A=",
+                          "uniqueKey": "O45iJV1D42QNtc5CgoTOFzrRkBA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "UsernameLink",
@@ -269,17 +405,24 @@
                                       "__value": {
                                         "Clause": "data-field=UserName"
                                       }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    3
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[2]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -298,7 +441,7 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -312,7 +455,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "bd2c70f5-38c3-4aee-8d9b-f5474e7ae1fc",
-            "Description": "Verify 'TextContent' 'Contains' 'Name'",
+            "Description": "Verify 'that Users Table Header' 'Contains' 'Name'",
             "CustomDescription": "Verify 'that Users Table Header' 'Contains' 'Name'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -363,7 +506,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "RLOfXf9Xto4HZRq8KCEG8+nrg8Q=",
+                          "uniqueKey": "L4lQOZAkK66duxafSx//jRl8eus=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "NameLink",
@@ -391,17 +534,24 @@
                                       "__value": {
                                         "Clause": "data-field=Name"
                                       }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    3
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[3]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -420,7 +570,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -434,7 +584,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9f8f1eb2-b165-4c62-9d37-a3e050182373",
-            "Description": "Verify 'TextContent' 'Contains' 'Status' ",
+            "Description": "Verify 'that Users Table Header' 'Contains' 'Status' ",
             "CustomDescription": "Verify 'that Users Table Header' 'Contains' 'Status' ",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -485,7 +635,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Ax2VI/jKZe9+WsAw84cr7F78lY8=",
+                          "uniqueKey": "nGSdcCVFmRhPEh3RXGiVKxE1N3A=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "StatusLink",
@@ -513,17 +663,24 @@
                                       "__value": {
                                         "Clause": "data-field=UserStatus"
                                       }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    3
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[4]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[4]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -542,7 +699,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -556,7 +713,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "338b47f4-a554-4692-a0a7-f1aa6d84eae5",
-            "Description": "Verify 'TextContent' 'Contains' 'Role'",
+            "Description": "Verify 'that Users Table Header' 'Contains' 'Role'",
             "CustomDescription": "Verify 'that Users Table Header' 'Contains' 'Role'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
@@ -607,7 +764,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "hVg/QG1nx9qOVFNfadxBHH9McjU=",
+                          "uniqueKey": "pfi/OLaK2AxBAmgY86FiHqh6EBA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "RoleLink",
@@ -635,17 +792,24 @@
                                       "__value": {
                                         "Clause": "data-field=RoleName"
                                       }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    1,
+                                    3
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[5]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/table[1]/thead[1]/tr[1]/th[5]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -664,7 +828,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
