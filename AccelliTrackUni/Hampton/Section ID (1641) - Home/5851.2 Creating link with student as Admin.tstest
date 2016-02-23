@@ -57,7 +57,7 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2jhrsfbpu.wh0",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -98,7 +98,7 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2 Creating link with student as Admin01azodo2.bi2",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -207,7 +207,7 @@
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2mt3y4ip1.tk1",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -218,14 +218,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "69622435-35a8-4734-aa04-dd952a9194f1",
-            "Description": "Navigate to : '/IEP/Caseload/MyCaseload'",
+            "Description": "Go to : 'MyCaseload'",
             "CustomDescription": "Go to : 'MyCaseload'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/IEP/Caseload/MyCaseload",
-                "BaseUrl": "",
+                "BaseUrl": "http://hampton.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -252,7 +252,7 @@
             "Order": 4,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.201s1fvta.pty",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -361,7 +361,7 @@
             "Order": 5,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2q3rmknxb.twv",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -473,7 +473,7 @@
             "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2gt5zfori.vzk",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -590,7 +590,7 @@
             "Order": 7,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2eq420kyn.die",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -723,7 +723,7 @@
             "Order": 8,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2m5jtk50x.x1r",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -832,7 +832,7 @@
             "Order": 9,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2nvpb4vyh.35e",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -874,7 +874,7 @@
             "Order": 10,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.222lr1psq.de5",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -885,8 +885,122 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "4e033cf9-360f-481b-a437-be4c145e9f46",
-            "Description": "Verify 'TextContent' 'Contains' 'Student has been added successfully.' on 'PnlCaseloadConfirmDiv'",
-            "CustomDescription": "Verify that message 'Student has been added successfully' appears",
+            "Description": "Wait for 'TextContent' 'Contains' 'Student has been added successfully.' on 'PnlCaseloadConfirmDiv'",
+            "CustomDescription": "Wait for confirmation message ",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Student has been added successfully.",
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Caseload/MyCaseload",
+                          "Query": "",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - My Caseload",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyMyCaseload"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "l0Q/TVosVsKPsiakTf7Fcvt4Bnk=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PnlCaseloadConfirmDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Student has been added successfully."
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 11,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "5851.2kp41aq1x.2hn",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6567fd86-4118-43fd-a8d6-1073c30c02da",
+            "Description": "Verify that message 'Student has been added successfully' appears",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -985,11 +1099,11 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "5851.2kp41aq1x.2hn",
+            "StepImageKey": "5851.2 Creating link with student as Adminxumjq5t1.xhn",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1099,7 +1213,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1226,10 +1340,10 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2kbc2bu1r.klp",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1270,10 +1384,10 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5851.2cnamckzv.eew",
             "QcId": 0,
             "QcVersionStamp": 0,
@@ -1284,8 +1398,122 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c9bdf212-4132-4147-a2c7-8413b853d070",
-            "Description": "Verify 'TextContent' 'Contains' 'Student has been removed successfully.' on 'PnlCaseloadConfirmDiv0'",
-            "CustomDescription": "Verify that message 'Student has been removed successfully' appears",
+            "Description": "Wait for 'TextContent' 'Contains' 'Student has been removed successfully.' on 'PnlCaseloadConfirmDiv0'",
+            "CustomDescription": "wait for confirmation message",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Student has been removed successfully.",
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Caseload/MyCaseload",
+                          "Query": "",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - My Caseload",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyMyCaseload"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "jlDi0F/46n2h1enM2BO9xq/DQyY=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PnlCaseloadConfirmDiv0",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Student has been removed successfully."
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "5851.22jxzlwkm.i1d",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ecfd0a85-daa6-4c68-a4a5-7f4e4c6e581b",
+            "Description": "Verify that message 'Student has been removed successfully' appears",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1384,11 +1612,11 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "5851.22jxzlwkm.i1d",
+            "ContinueOnFailure": false,
+            "StepImageKey": "5851.2 Creating link with student as Adminvum4aj2z.aum",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1853,7 +2081,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
-    "CustomProperty1": "ready",
+    "CustomProperty1": "",
     "CustomProperty2": "hampton",
     "TestLinks": [],
     "Description": "",
