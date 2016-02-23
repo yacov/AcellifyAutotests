@@ -921,7 +921,7 @@
             "Order": 11,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": true,
+            "ContinueOnFailure": false,
             "StepImageKey": "5864 Add student by Admin5rfbr3xv.kkb",
             "QcId": 0,
             "QcVersionStamp": 0,
