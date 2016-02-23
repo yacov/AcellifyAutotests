@@ -583,7 +583,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[4]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[7]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
