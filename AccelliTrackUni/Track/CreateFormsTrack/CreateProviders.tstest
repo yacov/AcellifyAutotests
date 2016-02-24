@@ -152,7 +152,7 @@
     "TestLinks": [],
     "Description": "",
     "Name": "CreateProviders",
-    "Owner": null,
+    "Owner": "",
     "Path": "Track\\CreateFormsTrack\\CreateProviders.tstest",
     "Priority": 0,
     "TestType": 0,
