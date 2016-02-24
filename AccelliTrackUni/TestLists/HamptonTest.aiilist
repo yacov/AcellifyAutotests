@@ -22,7 +22,7 @@
             "WebAppPhysicalPath": "",
             "DefaultBrowser": 1,
             "EnableScriptLogging": false,
-            "BaseUrl": "",
+            "BaseUrl": "http://hampton.acceliqc.com",
             "KillBrowserProcessOnClose": false,
             "UseHttpProxy": false,
             "EnableSilverlight": false,
