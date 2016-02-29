@@ -13,12 +13,12 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -26,22 +26,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "de2973d6-1ef7-4d80-b218-7004fd2fe7ed",
-            "Description": "Clear Browser Cache",
+            "Runtime ID": "e7318036-97ef-44e6-9e66-bcdb28a2cd81",
+            "Description": "Custom Annotation : Running test 5838 - Check if  Parenting consense is Yes",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClearCookiesActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CustomAnnotationActionDescriptor",
               "__value": {
-                "ClearCookies": true,
-                "ClearTempFiles": true,
-                "ClearHistory": true,
+                "AnnotationText": "Running test 5838 - Check if  Parenting consense is Yes",
+                "DisplayLocation": 4,
+                "DisplayTime": 1000,
                 "WaitOnElements": false,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -61,8 +57,8 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "GoToStudentAcountqzl01men.32u",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838 v2ukzmmbhi.bhg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -71,22 +67,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "8de8f332-64d9-4c53-9518-1ac181bd7052",
-            "Description": "Navigate to : 'https://hampton-pilot.acceliplan.com'",
+            "Runtime ID": "c7ae3536-c33d-4bbc-8fe8-5dd334a73c95",
+            "Description": "Execute test 'LoginAsAdminHampton'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "UseDecodedUrl": true,
-                "NavigateURL": "https://hampton-pilot.acceliplan.com",
-                "BaseUrl": "",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
+                "TestName": "LoginAsAdminHampton",
+                "TestPath": "Hampton\\Methods\\LoginAsAdminHampton.tstest",
+                "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -106,8 +98,8 @@
             "Order": 2,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestk0aqsq5e.lhk",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838 v2v3zar2le.jwp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -116,34 +108,21 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "74d45de5-7970-4e9d-8039-771a47842148",
-            "Description": "Enter text 'tchelgren_EspUser' in 'Username'",
+            "Runtime ID": "56faf612-2b79-4306-9cb7-a9e20b6e833a",
+            "Description": "Wait for ExistsNot 'LoadingDiv'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
               "__value": {
-                "RawText": "tchelgren_EspUser",
-                "SimulateRealTyping": false,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "T",
-                  "TypedText": "",
-                  "CaretPosition": 1,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
-                },
-                "Encrypt": false,
-                "SupportUnicode": true,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
+                "ExistsNot": true,
+                "WaitOnElements": true,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -152,23 +131,23 @@
                   }
                 },
                 "Elements": {
-                  "textTarget": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "textTarget",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-                          "Query": "?ReturnUrl=/",
-                          "BaseUrl": "",
+                          "Path": "/IEP/Students",
+                          "Query": "",
+                          "BaseUrl": "http://hampton-demo.accelidemo.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Login",
-                          "CompareMode": 2,
+                          "Title": "Accelify - Students",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "AccelifyStudents0"
                         }
                       },
                       "Frame": null,
@@ -176,10 +155,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "KTDLkTkRmO+Oi2eYXsNQru48AQU=",
+                          "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Username",
+                          "Name": "LoadingDiv",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -190,13 +169,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=plcContent_LoginControl_UserName"
+                                        "Clause": "tagname=div"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "TextContent=^Loading"
                                       }
                                     }
                                   ],
@@ -206,11 +185,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -218,20 +197,18 @@
                     }
                   }
                 },
-                "StepType": 4,
+                "StepType": 1,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": false,
-                "_cipher": null
+                "DataBindingExpressions": {}
               }
             },
             "Enabled": true,
             "Order": 3,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTesteoa1drfo.rcy",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838 v2x1qcceqp.j2c",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -240,26 +217,163 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "eca82d0e-c627-471b-94cd-eb8c24e695af",
-            "Description": "Enter text '5tchelg8' in 'PasswordField'",
+            "Runtime ID": "55ffb4fb-8d62-4d34-b3cf-4a1d8c73157e",
+            "Description": "Execute test 'GoToInitialIep'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
-                "RawText": "5tchelg8",
-                "SimulateRealTyping": false,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "T",
-                  "TypedText": "",
-                  "CaretPosition": 1,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "TestName": "GoToInitialIep",
+                "TestPath": "Hampton\\Methods\\FillForms\\GoToInitialIep.tstest",
+                "TestUniqueId": "fdc696df-1f0b-4883-8311-a9c0809c0748",
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
                 },
-                "Encrypt": false,
-                "SupportUnicode": true,
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838 v2v3535zag.hhm",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "4f770bf7-0ea5-4e06-a7cc-c7b05b12ecaf",
+            "Description": "Wait for ExistsNot 'LoadingDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "ExistsNot": true,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Students",
+                          "Query": "",
+                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Students",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyStudents0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoadingDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^Loading"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838emfnifob.iie",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "79e33d4e-e293-48bb-a94b-801a0855c3b0",
+            "Description": "Click 'ParentLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -276,34 +390,34 @@
                   }
                 },
                 "Elements": {
-                  "textTarget": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "textTarget",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-                          "Query": "?ReturnUrl=%2f",
-                          "BaseUrl": "",
+                          "Path": "/IEP/Events/ViewEvent",
+                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Login",
-                          "CompareMode": 2,
+                          "Fragment": "#Goals",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login2"
+                          "FriendlyName": "AccelifyInitialIEPFor26"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "eUgtFHl8NiMq3z28MQf+uegHQrM=",
+                          "uniqueKey": "xbz+01gsMx+EwgCiLHHdVVCxrh8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PasswordField",
+                          "Name": "ParentLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -314,27 +428,29 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "id=pnlEventOverview"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=plcContent_LoginControl_Password"
+                                        "Clause": "TextContent=Parent Permission To IEP"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr[51]/td[6]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -345,17 +461,15 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": false,
-                "_cipher": null
+                "DataBindingExpressions": {}
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestd0voel2y.vnm",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838w0v2m0dw.zki",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -364,8 +478,117 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a77c89c0-a765-4da7-bc3a-5bf573dcd296",
-            "Description": "Click 'PlcContentLoginControlLnkLoginImage'",
+            "Runtime ID": "89fba493-f5fb-439e-935f-d4f1d8222bcf",
+            "Description": "Wait for ExistsNot 'LoadingDiv'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
+              "__value": {
+                "ExistsNot": true,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/IEP/Students",
+                          "Query": "",
+                          "BaseUrl": "http://hampton-demo.accelidemo.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Students",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyStudents0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "LoadingDiv",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=div"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=^Loading"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 7,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838xwtnfd32.tne",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6517f660-5fec-490a-b55f-4c2ec82c1457",
+            "Description": "Click 'ParentPermissionNo'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -397,26 +620,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-                          "Query": "?ReturnUrl=%2f",
+                          "Path": "http://hampton.acceliqc.com/IEP/Events/ViewEvent",
+                          "Query": "?eventId=4d52ed69-174d-4076-875e-a5ac000f11c2",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Login",
-                          "CompareMode": 2,
+                          "Fragment": "#NoticeOfMeeting&formId=c01b17de-2dfb-45bd-aec0-a5ac000f12f5",
+                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login2"
+                          "FriendlyName": "AccelifyNoticeOfMeeting2"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Wt04BafAQsGpG9J+uSq4cR4wYAQ=",
+                          "uniqueKey": "Htf0+o24Rm9ZX866ruLyBtx5eXU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentLoginControlLnkLoginImage",
+                          "Name": "ParentPermissionNo",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -427,27 +650,35 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=plcContent_LoginControl_lnkLogin"
+                                        "Clause": "id=frmFormDetails"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=input"
+                                        "Clause": "tagIndex=span:3"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "InnerText=Parent Permission No"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/input[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/span[1]/div[2]/label[1]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputImage",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -459,356 +690,14 @@
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 5,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "GoToStudentAcount0cyf02b4.eq5",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "bbe430f3-716a-49ac-9a7b-014c32a3758c",
-            "Description": "Click 'SpEdLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/AcceliTrack/Home.aspx",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "AcceliTrack - Welcome to AcceliTrack provider area!",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AcceliTrackWelcomeTo0"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "AoXb5wnAN1P4DFBSyQ/kIpMJn18=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "SpEdLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "href=../IEP/"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 6,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestxf5rpk3a.vmd",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "01b6cae2-43cb-4012-8a4e-a30f7495b734",
-            "Description": "Click 'StudentsLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/IEP/",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Home",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyHome"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "4zWe47kP+9N26OTfuLovNQX5fn8=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "StudentsLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "href=/IEP/Students"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 7,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestf5xkch0b.z34",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e5e45ad4-4528-44ab-ad5e-e6103fbb5d21",
-            "Description": "Enter text 'TEST' in 'UniqueIdText'",
-            "CustomDescription": "Enter text 'TEST' in Student ID field",
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
-              "__value": {
-                "RawText": "TEST",
-                "SimulateRealTyping": false,
-                "TypingSpeed": 50,
-                "KeyHoldTime": 100,
-                "IsPassword": false,
-                "TypingInfo": {
-                  "ElementText": "T",
-                  "TypedText": "",
-                  "CaretPosition": 1,
-                  "IsTextArea": false,
-                  "IsBackSpace": false
-                },
-                "Encrypt": false,
-                "SupportUnicode": true,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/IEP/Students",
-                          "Query": "",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Students",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "02G8BKpx7WeWmCV4u0eceZ3jOws=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "UniqueIdText",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=input"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=UniqueId"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {},
-                "_canEncrypt": false,
-                "_cipher": null
               }
             },
             "Enabled": true,
             "Order": 8,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestxjpcgcqe.woz",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838v2setParentPermissionTo'Yes' (1)wyclvs5t.fla",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -817,14 +706,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "84ae1c58-796e-4bd3-826b-97c63300d03f",
-            "Description": "Click 'BtnFilterStudentsLink'",
-            "CustomDescription": "Click on filter Button",
+            "Runtime ID": "993a2570-f275-419a-9b2c-bf261de7dce9",
+            "Description": "Click 'BtnUpdateFormLink'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -836,7 +725,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -848,15 +739,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/IEP/Students",
-                          "Query": "",
+                          "Path": "http://hampton.acceliqc.com/IEP/Events/ViewEvent",
+                          "Query": "?eventId=4d52ed69-174d-4076-875e-a5ac000f11c2",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "Fragment": "#NoticeOfMeeting&formId=c01b17de-2dfb-45bd-aec0-a5ac000f12f5",
+                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents"
+                          "FriendlyName": "AccelifyNoticeOfMeeting2"
                         }
                       },
                       "Frame": null,
@@ -864,10 +755,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "O0ETgqg3OSbLG//NO59ILkNQxR4=",
+                          "uniqueKey": "rJIAGmYKLMXpx0c0hvRVm5hKmEM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "BtnFilterStudentsLink",
+                          "Name": "BtnUpdateFormLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -878,13 +769,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "id=btnUpdateForm"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=btnFilterStudents"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -894,7 +785,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -916,8 +807,8 @@
             "Order": 9,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestnf0dob1f.uyu",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838v2setParentPermissionTo'Yes' (1)vs23eqfq.otl",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -926,14 +817,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6fd2d4a6-b24a-4bc6-8411-a3293f0e9e6b",
-            "Description": "Click 'TestLink'",
+            "Runtime ID": "b8a9b5c1-19c3-4052-8251-83e49d8e55c0",
+            "Description": "Click 'BtnValidateFormLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -945,7 +836,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -957,15 +850,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/IEP/Students",
-                          "Query": "",
+                          "Path": "http://hampton.acceliqc.com/IEP/Events/ViewEvent",
+                          "Query": "?eventId=4d52ed69-174d-4076-875e-a5ac000f11c2",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Students",
-                          "CompareMode": 2,
+                          "Fragment": "#NoticeOfMeeting&formId=c01b17de-2dfb-45bd-aec0-a5ac000f12f5",
+                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents"
+                          "FriendlyName": "AccelifyNoticeOfMeeting2"
                         }
                       },
                       "Frame": null,
@@ -973,10 +866,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "bdwsPhreN9p54IZ5msiGzf43iXM=",
+                          "uniqueKey": "KVvizgfPdPw58Y4LJo8sQK9sP48=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "TestLink",
+                          "Name": "BtnValidateFormLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -987,13 +880,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "id=btnValidateForm"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=/IEP/Students/ViewStudent?commonStudentId=51574"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -1003,7 +896,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[3]/a[3]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -1025,8 +918,8 @@
             "Order": 10,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTestfqcynk5n.ep3",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838v2setParentPermissionTo'Yes' (1)ghd2gkva.wkv",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1035,17 +928,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "034b15bc-55f7-4c00-a5f8-591f18a98284",
-            "Description": "Click 'EventsLink'",
+            "Runtime ID": "c629aec0-a7eb-4ca9-8766-4e82b4dae784",
+            "Description": "Verify 'TextContent' 'Contains' 'Date of Consent Response - is Required field' on 'DateOfSpan'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Date of Consent Response - is Required field",
                 "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
@@ -1054,138 +950,29 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/IEP/Students/ViewStudent",
-                          "Query": "?commonStudentId=51574",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - test test",
-                          "CompareMode": 2,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyTestTest"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "5XIdswx8dEu2/6m2NoOHf+7O6E0=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "EventsLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=pnlStudentIepMenu"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=a:2"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
                     }
                   }
                 },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 11,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "WebTest1rjeddtq.cbu",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e0811d80-f39b-4ab2-8b22-8db54487f08c",
-            "Description": "Click 'NoticeOfLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
                 "Elements": {
-                  "target": {
+                  "textTarget": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "textTarget",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://hampton-pilot.acceliplan.com/IEP/Students/ViewStudent",
-                          "Query": "?CommonStudentId=51574&StudentViewType=Events&ProgramType=HamptonIEP",
+                          "Path": "http://hampton.acceliqc.com/IEP/Events/ViewEvent",
+                          "Query": "?eventId=4d52ed69-174d-4076-875e-a5ac000f11c2",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - test test",
-                          "CompareMode": 2,
+                          "Fragment": "#NoticeOfMeeting&formId=c01b17de-2dfb-45bd-aec0-a5ac000f12f5",
+                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyTestTest0"
+                          "FriendlyName": "AccelifyNoticeOfMeeting2"
                         }
                       },
                       "Frame": null,
@@ -1193,10 +980,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "pvZXYYK/y6HH7weRsgWVHy6UeiE=",
+                          "uniqueKey": "4MQqgKYQd7PAQ/6ZNHYvu3KY1bU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NoticeOfLink",
+                          "Name": "DateOfSpan",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1207,13 +994,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=^Date of Consent"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=/IEP/Events/ViewEvent?eventId=55dc7366-0d8a-4b37-ae81-a58400fdd5b3"
+                                        "Clause": "tagname=span"
                                       }
                                     }
                                   ],
@@ -1223,11 +1010,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[1]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -1235,18 +1022,18 @@
                     }
                   }
                 },
-                "StepType": 4,
+                "StepType": 2,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "GoToStudentAcountoatfk1tb.pxk",
+            "ContinueOnFailure": true,
+            "StepImageKey": "5838v2setParentPermissionTo'Yes' (1)oxz2at2e.yap",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1258,215 +1045,20 @@
       {
         "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
         "__value": {
-          "Name": "textTarget",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/IEP/Students",
-              "Query": "",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - Students",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyStudents"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "02G8BKpx7WeWmCV4u0eceZ3jOws=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "UniqueIdText",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=UniqueId"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": null,
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "textTarget",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-              "Query": "?ReturnUrl=%2f",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Login",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "Login2"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "eUgtFHl8NiMq3z28MQf+uegHQrM=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "PasswordField",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=plcContent_LoginControl_Password"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": null,
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "textTarget",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/IEP/Students",
-              "Query": "",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - Students",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyStudents"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "02G8BKpx7WeWmCV4u0eceZ3jOws=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "UniqueIdText",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=UniqueId"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": null,
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
           "Name": "$$Independent$$",
           "Region": null,
           "Page": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-              "Query": "",
-              "BaseUrl": "",
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Login",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "Login0"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -1474,10 +1066,10 @@
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
-              "uniqueKey": "Wt04BafAQsGpG9J+uSq4cR4wYAQ=",
+              "uniqueKey": "0DaEMd0wPvB4Udyn16a6KFEY9O8=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "LoginButton",
+              "Name": "ParentPermissionForm",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -1488,353 +1080,7 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "id=plcContent_LoginControl_lnkLogin"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/input[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputImage",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": null,
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-            "__value": {
-              "uniqueKey": "83pQgNXJc5ydM1K2IhBwR1SF0nA=",
-              "NodeKind": 9,
-              "TechnologyType": 1,
-              "Name": "IFSPMeetingDate",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.DummyFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.DummyFindClause",
-                          "__value": {
-                            "Clause": "Name=7e363879-2ce0-42e2-b59b-0681ccd86417"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": null,
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": null,
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-            "__value": {
-              "uniqueKey": "K3evAT0i2hdgT4m0ccpuzLANXfA=",
-              "NodeKind": 9,
-              "TechnologyType": 1,
-              "Name": "MeetingPurpose",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.DummyFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.DummyFindClause",
-                          "__value": {
-                            "Clause": "Name=1c3b7b2a-d93b-4a26-bbcf-79f7373167c4"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": null,
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSelect",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "textTarget",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-              "Query": "?ReturnUrl=%2f",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Login",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "Login2"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-            "__value": {
-              "uniqueKey": "cV6gLNRwamoQSaOdYLhQ9tnFuqs=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "UserNameField",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=plcContent_LoginControl_lnkLogin"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/input[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputImage",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-              "Query": "?ReturnUrl=/",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Login",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "Login1"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "KTDLkTkRmO+Oi2eYXsNQru48AQU=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "Username",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=plcContent_LoginControl_UserName"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "textTarget",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/Login.aspx",
-              "Query": "?ReturnUrl=%2f",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Login",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "Login2"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "Wt04BafAQsGpG9J+uSq4cR4wYAQ=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "PlcContentLoginControlLnkLoginImage",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=input"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "id=plcContent_LoginControl_lnkLogin"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": null,
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputImage",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      },
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/IEP/Events/ViewEvent",
-              "Query": "?eventId=55dc7366-0d8a-4b37-ae81-a58400fdd5b3",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - Notice of Meeting - Initial IEP for test test",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNoticeOfMeeting0"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "++lU4Y7HRoBW+5m8x+Y/fz3IpTo=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "NoticeLink",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "href=http://accelify.com/Services/Solutions"
+                            "Clause": "TextContent=^Parent Permissi"
                           }
                         },
                         {
@@ -1850,7 +1096,7 @@
                   }
                 }
               ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[3]/div[1]/div[1]/a[3]",
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr[51]/td[6]/a[1]",
               "DataBindingExpressions": {}
             }
           },
@@ -1869,15 +1115,15 @@
           "Page": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
-              "Path": "https://hampton-pilot.acceliplan.com/IEP/Students/ViewStudent",
-              "Query": "?CommonStudentId=51574&StudentViewType=Events&ProgramType=HamptonIEP",
-              "BaseUrl": "",
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
               "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - test test",
-              "CompareMode": 2,
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyTestTest0"
+              "FriendlyName": "AccelifyInitialIEPFor26"
             }
           },
           "Frame": null,
@@ -1885,10 +1131,10 @@
           "FindExpression": {
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
             "__value": {
-              "uniqueKey": "wSaZZrOpwCbGjHVufp0SQJfFeJk=",
+              "uniqueKey": "lLMjwHBET3Vn+YjRdw76V3PzweQ=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "NoticeOfMeetind",
+              "Name": "ConsenRespForm",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -1899,7 +1145,80 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "TagIndex=div:41"
+                            "Clause": "id=frmFormDetails"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagIndex=span:8"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": [
+                        1
+                      ]
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/span[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Students",
+              "Query": "",
+              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Accelify - Students",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyStudents0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "LoadingDiv",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=^Loading"
                           }
                         }
                       ],
@@ -1909,7 +1228,202 @@
                   }
                 }
               ],
-              "BackupSearchClause": "/html[1]/body[1]/div[5]",
+              "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor26"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "PCHpEY3G0e7nQ4ZCuSN1RrvXb80=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "DateOfConcentResponce",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=FormFieldValues_576ac006-482d-43f6-9dc3-201e4380346d__ValueDateString"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=input"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/span[1]/span[1]/span[1]/input[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Events/ViewEvent",
+              "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
+              "BaseUrl": "https://hampton-pilot.acceliplan.com",
+              "EquivalentUrls": [],
+              "Fragment": "#Goals",
+              "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyInitialIEPFor26"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "RN1kvRJXxS5NgrT6zbOi6vTqsS4=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "PnlForms1Div",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "id=pnlForms-1"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]",
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      },
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "",
+          "Region": null,
+          "Page": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+            "__value": {
+              "Path": "/IEP/Students",
+              "Query": "",
+              "BaseUrl": "http://hampton-demo.accelidemo.com",
+              "EquivalentUrls": [],
+              "Fragment": "",
+              "Title": "Accelify - Students",
+              "CompareMode": 4,
+              "AlwaysUseTitleInCompare": false,
+              "FriendlyName": "AccelifyStudents0"
+            }
+          },
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+            "__value": {
+              "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
+              "NodeKind": 4,
+              "TechnologyType": 1,
+              "Name": "LoadingDiv",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "tagname=div"
+                          }
+                        },
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                          "__value": {
+                            "Clause": "TextContent=^Loading"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
               "DataBindingExpressions": {}
             }
           },
@@ -1930,12 +1444,12 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "StudentEvents.dll",
+    "TestAssembly": "AccelliTrackUni.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "",
+    "TestClass": "AccelliTrackUni._838v2setParentPermissionTo_Yes___1_",
     "IsManual": false,
-    "ResourceFilePath": "Track\\TestTrack\\StudentEvent\\GoToStudentAcount.resx",
-    "HasCodeBehind": false,
+    "ResourceFilePath": "Hampton\\Siute_1638_Events_Initial_IEP\\5838v2setParentPermissionTo'Yes' (1).resx",
+    "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -1963,16 +1477,17 @@
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
     "CustomProperty1": "ready",
-    "CustomProperty2": "track",
+    "CustomProperty2": "hampton",
+    "CustomProperty3": "1638",
     "TestLinks": [],
-    "Description": "",
-    "Name": "GoToStudentAcount",
+    "Description": " Workflow - v.2 set parent permission to 'Yes'",
+    "Name": "5838v2setParentPermissionTo'Yes' (1)",
     "Owner": "",
-    "Path": "Track\\TestTrack\\StudentEvent\\GoToStudentAcount.tstest",
+    "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5838v2setParentPermissionTo'Yes' (1).tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "f3697c50-4e62-4898-bd77-e8aba0ebf49a",
-    "Id": "f3697c50-4e62-4898-bd77-e8aba0ebf49a",
+    "UniqueId": "57101bce-6669-4874-ae28-4efa7ade022b",
+    "Id": "57101bce-6669-4874-ae28-4efa7ade022b",
     "ProjectId": "da260b84-0f05-48db-870e-0693f7d5bba9",
     "Version": 200
   }

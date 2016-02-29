@@ -2621,7 +2621,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
-    "CustomProperty1": "Ready",
+    "CustomProperty1": "ready",
     "CustomProperty2": "hampton",
     "CustomProperty3": "1638",
     "TestLinks": [],
