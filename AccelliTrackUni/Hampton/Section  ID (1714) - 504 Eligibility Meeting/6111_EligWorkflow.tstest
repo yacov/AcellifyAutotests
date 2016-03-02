@@ -551,7 +551,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d9d96b3a-0384-44c8-8704-49d9cccbc9a4",
-            "Description": "Desktop command: LeftClick on EventsLink504",
+            "Description": "Click on EventsLink504",
             "CustomDescription": "Click on EventsLink504",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DesktopActionDescriptor",
@@ -616,13 +616,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=/IEP/Students/ViewStudent?CommonStudentId=11250&amp;studentViewType=Events&amp;programType=Hampton504"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "href=/IEP/Students/ViewStudent?CommonStudentId=11250&amp;studentViewType=Events&amp;programType=Hampton504"
                                       }
                                     }
                                   ],
@@ -656,6 +656,118 @@
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "6111_EligWorkflowi2b14dx3.dmk",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "242bac8d-f6c6-4ff8-8c47-e45a15d27425",
+            "Description": "Wait for element 'EventsLink' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://hampton.acceliqc.com/IEP/Students/ViewStudent",
+                          "Query": "?studentViewType=Events&commonStudentId=11250&programType=HamptonIEP",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Eli Aaron",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyEliAaron"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "t7rfVuhPAKDAUutvUDIhpYZG58Y=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "EventsLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/IEP/Students/ViewStudent?CommonStudentId=11250&amp;studentViewType=Events&amp;programType=Hampton504"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[4]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[2]/ul[1]/li[3]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 9,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "6111_EligWorkflowpeyg5g4i.5vb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -762,7 +874,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -875,7 +987,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -989,7 +1101,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1111,7 +1223,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1222,7 +1334,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1273,13 +1385,13 @@
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "href=/IEP/Students/ViewStudent?CommonStudentId=11250&amp;studentViewType=Events&amp;programType=Hampton504"
+                            "Clause": "tagname=a"
                           }
                         },
                         {
                           "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                           "__value": {
-                            "Clause": "tagname=a"
+                            "Clause": "href=/IEP/Students/ViewStudent?CommonStudentId=11250&amp;studentViewType=Events&amp;programType=Hampton504"
                           }
                         }
                       ],
