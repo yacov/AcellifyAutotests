@@ -26,7 +26,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b6e1f84f-522c-4727-99a6-f24856654057",
+            "Runtime ID": "ddd81960-40f0-4b3a-b2d9-ac3c056cefb4",
             "Description": "Execute test 'LoginAsAdmin'",
             "CustomDescription": null,
             "Step": {
@@ -58,7 +58,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchoolhce1shtv.ohe",
+            "StepImageKey": "3012ModifySchooltn5wg1kn.3bs",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
