@@ -68,14 +68,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e8d2a95c-5bc5-4778-8f7d-1a36260e50d3",
-            "Description": "Navigate to : '/Administration/SchoolManager.aspx'",
+            "Description": "Go to SchoolManager",
             "CustomDescription": "Go to SchoolManager",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/Administration/SchoolManager.aspx",
-                "BaseUrl": "",
+                "BaseUrl": "http://va.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -214,7 +214,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolnumhhnhc.ss3",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDaobybcvw.l2t",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -328,7 +328,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolPositivehwcxl3ba.mtf",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDlkybutiq.urw",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -494,7 +494,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchool4hg5sspa.mru",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDf4yqu4y4.ao0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -622,7 +622,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchool0g4f45sj.upp",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDdmc4avm0.ebc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -738,7 +738,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolixfvihzp.xwf",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDazzvovz2.5vm",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -849,7 +849,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolps0yiwjv.xvw",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDgisyizh2.fwm",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -960,7 +960,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolpmsj0uxz.u1y",
+            "StepImageKey": "30111CreateSchoolNegativeNonUniqueIDncwarf2v.kbb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
