@@ -202,7 +202,7 @@
     ],
     "ScheduleServerUrl": "http://iakov:8009/",
     "IsScheduleServerRemote": true,
-    "ProjectVersion": "2015.3.1005.0",
+    "ProjectVersion": "2015.3.1429.0",
     "Namespace": "AccelliTrackUni",
     "AssemblyName": "AccelliTrackUni",
     "OutputFolder": "bin",
@@ -236,7 +236,7 @@
               }
             }
           },
-          "CurrentVersion": "2015.3.1314.0",
+          "CurrentVersion": "2015.3.1429.0",
           "XmlBlob": null
         }
       }
