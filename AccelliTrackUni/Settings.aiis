@@ -158,7 +158,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "http://va.acceliqc.com",
+    "RecorderBaseUrl": "",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,

@@ -1223,7 +1223,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "00fb4c49-f714-47e3-929e-8c7ba6a86d19",
-            "Description": "Click 'AaronEliLink'",
+            "Description": "Click 'StudentFirstRowNameLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -1271,10 +1271,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "gTaN7MG/assPnZ6TylRjQvS9b8w=",
+                          "uniqueKey": "wBwosDrWuka9hMzFln20qfuPbqM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "AaronEliLink",
+                          "Name": "StudentFirstRowNameLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1285,7 +1285,25 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=/IEP/Students/ViewStudent?commonStudentId=11250"
+                                        "Clause": "data-role=grid"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pnlStudentList"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=td"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=td:1"
                                       }
                                     },
                                     {
@@ -1296,7 +1314,10 @@
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    2,
+                                    4
+                                  ]
                                 }
                               }
                             }

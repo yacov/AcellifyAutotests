@@ -222,7 +222,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "9460a7ba-fbe8-4447-8088-e32fa7f2efb7",
-            "Description": "KendoGridExtract cell text into DataBindVariable $(StudentID)",
+            "Description": "Get first line StudentID",
             "CustomDescription": "Get first line StudentID",
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.Grid.KendoUIGridDataCellVerificationDescriptor",
