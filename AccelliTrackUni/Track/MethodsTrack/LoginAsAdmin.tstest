@@ -79,7 +79,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
-                "BaseUrl": "",
+                "BaseUrl": "http://va.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -231,7 +231,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "WebTestiauyrw1o.jkq",
+            "StepImageKey": "LoginAsAdminkzsdoxen.hqp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -355,7 +355,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "WebTestzibz0p0v.ph0",
+            "StepImageKey": "LoginAsAdmin3teyortl.kf0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -464,7 +464,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "WebTestjstskn1k.klw",
+            "StepImageKey": "LoginAsAdminecloii3v.qq2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

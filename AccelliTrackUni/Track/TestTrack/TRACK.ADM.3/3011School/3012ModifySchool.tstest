@@ -27,8 +27,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "ddd81960-40f0-4b3a-b2d9-ac3c056cefb4",
-            "Description": "Execute test 'LoginAsAdmin'",
-            "CustomDescription": null,
+            "Description": "'Login As Admin'",
+            "CustomDescription": "'Login As Admin'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -68,14 +68,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "07e5b3f5-e074-49ad-ac0a-36c1c7ff5b96",
-            "Description": "Go to SchoolManager",
-            "CustomDescription": null,
+            "Description": "Navigate to : '/Administration/SchoolManager.aspx'",
+            "CustomDescription": "Go to SchoolManager",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/Administration/SchoolManager.aspx",
-                "BaseUrl": "",
+                "BaseUrl": "http://va.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -219,7 +219,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchoolcoqq5quy.hta",
+            "StepImageKey": "3012ModifySchoolt4kmksyz.hb3",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -269,8 +269,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7e90f032-3a51-4ed9-b159-c97b8d9d8949",
-            "Description": "Execute test 'CreateSchool'",
-            "CustomDescription": null,
+            "Description": "Execute method 'CreateSchool'",
+            "CustomDescription": "Execute method 'CreateSchool'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -310,12 +310,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6a0ed817-07bb-456f-a61d-aa790a5b7875",
-            "Description": "Enter text 'school' in 'FilterUniqueIdText' - DataDriven: [$(schoolId)]",
-            "CustomDescription": null,
+            "Description": "Enter text '' in 'FilterUniqueIdText' - DataDriven: [$(schoolId)]",
+            "CustomDescription": "Enter saved schoolId in 'UniqueId' filter field ",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "school",
+                "RawText": "",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -428,7 +428,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchoollug52tyd.tlu",
+            "StepImageKey": "3012ModifySchoolngujfrqv.ens",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -439,7 +439,7 @@
           "__value": {
             "Runtime ID": "bb602a54-0021-4eca-8b66-534fe84577c9",
             "Description": "Click 'BtnFilterLink'",
-            "CustomDescription": null,
+            "CustomDescription": "Click 'Filter' button",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
@@ -539,7 +539,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchool23gwk3kg.eve",
+            "StepImageKey": "3012ModifySchool4wfx201p.a4f",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -656,7 +656,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchool5vgqu01c.yfo",
+            "StepImageKey": "3012ModifySchoollcbmjy5b.usb",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -769,120 +769,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchoolx1reh3yc.rwg",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "85c62b5a-d3db-4ded-a2f3-b0f30c2f95a1",
-            "Description": "Click 'Div'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "Administration/SchoolManager.aspx",
-                          "Query": "",
-                          "BaseUrl": "http://va.acceliqc.com/",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "AcceliTrack - School Manager",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AcceliTrackSchoolManager0"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "I8x9xysAFP/9BzwpfaGIpW466oM=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Div",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=plcContent_plcContent_plcContent_tSchoolDetails_tiGeneral"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagIndex=div:0"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[2]/span[1]/div[1]/div[1]/div[1]/div[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 10,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchoolqm21aspa.pop",
+            "StepImageKey": "3012ModifySchooltmghb4d2.qs1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -893,7 +780,7 @@
           "__value": {
             "Runtime ID": "caef1d57-c2a7-477d-b701-b504c5fbeb9a",
             "Description": "Enter text 'NewNewSchool' in 'SchoolNameText'",
-            "CustomDescription": null,
+            "CustomDescription": "Enter text 'NewNewSchool' in 'SchoolNameText' field",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -1004,11 +891,11 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchoolhbxaw5qp.nkr",
+            "StepImageKey": "3012ModifySchooljq1fa5az.wre",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1115,11 +1002,11 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchool5x20lyz3.tjp",
+            "StepImageKey": "3012ModifySchoolbshdxi2k.mpy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1130,7 +1017,7 @@
           "__value": {
             "Runtime ID": "4ba6c5d1-f6ef-4d9e-af7f-1c75b9db6453",
             "Description": "Verify 'TextContent' 'Contains' 'NewNewSchool' on 'NewNewSchoolTableCell'",
-            "CustomDescription": null,
+            "CustomDescription": "Verify 'that'' 'NewNewSchool' name is in the table",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
               "__value": {
@@ -1229,11 +1116,11 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3012ModifySchool3gzbymwz.lsg",
+            "StepImageKey": "3012ModifySchoolk2qmobn2.czk",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

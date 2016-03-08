@@ -59,7 +59,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "5aab8c2c-6ef1-483b-b4fe-d3b6b90064c0",
-          "Path": "Hampton\\Section ID (1641) - Home\\5849 Check Main Page Vidgets.tstest",
+          "Path": "Hampton\\Home\\5849 Check Main Page Vidgets.tstest",
           "PathType": 0
         }
       },
@@ -67,7 +67,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "13e23209-2a5a-458d-9bb8-97bdc5cdadf6",
-          "Path": "Hampton\\Section ID (1641) - Home\\5850 Check list of students from watchlist.tstest",
+          "Path": "Hampton\\Home\\5850 Check list of students from watchlist.tstest",
           "PathType": 0
         }
       },
@@ -75,7 +75,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "2300f854-7b54-41c9-b2e8-8c0d27e39d03",
-          "Path": "Hampton\\Section ID (1641) - Home\\5850 Watchlist manage.tstest",
+          "Path": "Hampton\\Home\\5850 Watchlist manage.tstest",
           "PathType": 0
         }
       },
@@ -83,7 +83,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "a551a190-1538-4d0e-84e4-e41ac6e6897e",
-          "Path": "Hampton\\Section ID (1641) - Home\\5851 Check CaseLoad status.tstest",
+          "Path": "Hampton\\Home\\5851 Check CaseLoad status.tstest",
           "PathType": 0
         }
       },
@@ -91,7 +91,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "c9447734-6cf6-4aca-8892-ec2e4b1ae9a3",
-          "Path": "Hampton\\Section ID (1641) - Home\\5851.2 Creating link with student as Admin.tstest",
+          "Path": "Hampton\\Home\\5851.2 Creating link with student as Admin.tstest",
           "PathType": 0
         }
       },
@@ -99,7 +99,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "57ca03ed-cf66-4e11-94ca-f9aa5486054b",
-          "Path": "Hampton\\Section ID (1643) - Caseload\\5859 MyCaseloadView.tstest",
+          "Path": "Hampton\\Caseload\\5859 MyCaseloadView.tstest",
           "PathType": 0
         }
       },
@@ -107,7 +107,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "5fe5b5b2-8316-45aa-844b-72a8defe5f9d",
-          "Path": "Hampton\\Section ID (1643) - Caseload\\5860 FilterFields.tstest",
+          "Path": "Hampton\\Caseload\\5860 FilterFields.tstest",
           "PathType": 0
         }
       },
@@ -115,7 +115,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "b93aeadf-5893-4116-be50-f2c20b3f2da6",
-          "Path": "Hampton\\Section ID (1643) - Caseload\\5860.2 TestFilterById.tstest",
+          "Path": "Hampton\\Caseload\\5860.2 TestFilterById.tstest",
           "PathType": 0
         }
       },
@@ -123,7 +123,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "44e774c0-0cb6-484d-8df2-0025d2c2d1e0",
-          "Path": "Hampton\\Section ID (1643) - Caseload\\5861 MyCaseloadTable.tstest",
+          "Path": "Hampton\\Caseload\\5861 MyCaseloadTable.tstest",
           "PathType": 0
         }
       },
@@ -131,7 +131,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "89dc16c0-0fcd-4a6f-a815-e7f54cca4f36",
-          "Path": "Hampton\\Section ID (1643) - Caseload\\5864 Add and remove student by Admin.tstest",
+          "Path": "Hampton\\Caseload\\5864 Add and remove student by Admin.tstest",
           "PathType": 0
         }
       },
@@ -139,7 +139,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "7049c9b2-f6df-4878-848d-068d569a8553",
-          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5839Fill_Goal_section.tstest",
+          "Path": "Hampton\\Events\\Initial_IEP\\5839Fill_Goal_section.tstest",
           "PathType": 0
         }
       },
@@ -147,7 +147,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "7461bb5a-6122-4e52-91ab-a90d56e9db2e",
-          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5836Create_event.tstest",
+          "Path": "Hampton\\Events\\Initial_IEP\\5836Create_event.tstest",
           "PathType": 0
         }
       },
@@ -155,7 +155,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "29a04310-7a1e-4ba8-85b3-2878888d3108",
-          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5837Update_Event.tstest",
+          "Path": "Hampton\\Events\\Initial_IEP\\5837Update_Event.tstest",
           "PathType": 0
         }
       },
@@ -163,7 +163,7 @@
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
           "Id": "e78486b6-c8db-4da1-9d71-000975adad6f",
-          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\6079_1_CRUD_Assessment.tstest",
+          "Path": "Hampton\\Events\\Initial_IEP\\6079_1_CRUD_Assessment.tstest",
           "PathType": 0
         }
       }

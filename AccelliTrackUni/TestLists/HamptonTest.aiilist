@@ -45,7 +45,7 @@
         "WaitCheckInterval": 500,
         "ElementWaitTimeout": 30000,
         "ExecuteCommandTimeout": 20000,
-        "ExecutionDelay": 250,
+        "ExecutionDelay": 200,
         "UnexpectedDialogAction": 1,
         "AnnotateExecution": false,
         "AnnotationMode": 0,
@@ -55,6 +55,22 @@
       }
     },
     "Tests": [
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "42a36964-86ea-4571-ab25-6c55439ea097",
+          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\NR5840.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "246c6bbc-99b0-46b7-bf44-82f1a6c776a1",
+          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\6079_2Update Accommodation.tstest",
+          "PathType": 0
+        }
+      },
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
@@ -68,6 +84,30 @@
         "__value": {
           "Id": "7049c9b2-f6df-4878-848d-068d569a8553",
           "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5839Fill_Goal_section.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "cf11d5a9-a968-4197-a951-d4ed3ca26a9e",
+          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5838v2setParentPermissionTo'Yes'.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "57101bce-6669-4874-ae28-4efa7ade022b",
+          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5838v2setParentPermissionTo'Yes' (1).tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "f5bd083f-f346-4f04-904c-84b699226036",
+          "Path": "Hampton\\Siute_1638_Events_Initial_IEP\\5838set_parent_permission_to'NO'.tstest",
           "PathType": 0
         }
       },
@@ -124,6 +164,22 @@
         "__value": {
           "Id": "71bddf46-f8bf-4a12-b733-de443f0de328",
           "Path": "Hampton\\Section ID (1661) - Students Page\\5904_Common_UI.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "c0e04eb7-3772-40ae-9080-129ac0c16f6b",
+          "Path": "Hampton\\Section Id (1660) Students section\\Eligibility.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "5b24606e-9a1f-40bb-914e-7ccd0effc24e",
+          "Path": "Hampton\\Section Id (1660) Students section\\CheckRegion.tstest",
           "PathType": 0
         }
       },
@@ -218,6 +274,14 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
+          "Id": "40812f17-a214-4339-a56d-139c643fd1fe",
+          "Path": "Hampton\\Section ID (1643) - Caseload\\5867AddStudentByProviderFromStPage.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
           "Id": "89dc16c0-0fcd-4a6f-a815-e7f54cca4f36",
           "Path": "Hampton\\Section ID (1643) - Caseload\\5864 Add and remove student by Admin.tstest",
           "PathType": 0
@@ -282,6 +346,22 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
+          "Id": "8a44ca0a-5471-4690-aa5c-bab5d8cbf347",
+          "Path": "Hampton\\Section ID (1641) - Home\\5852 Create event for unlinked student..tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "c9447734-6cf6-4aca-8892-ec2e4b1ae9a3",
+          "Path": "Hampton\\Section ID (1641) - Home\\5851.2 Creating link with student as Admin.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
           "Id": "a551a190-1538-4d0e-84e4-e41ac6e6897e",
           "Path": "Hampton\\Section ID (1641) - Home\\5851 Check CaseLoad status.tstest",
           "PathType": 0
@@ -298,6 +378,14 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
+          "Id": "13e23209-2a5a-458d-9bb8-97bdc5cdadf6",
+          "Path": "Hampton\\Section ID (1641) - Home\\5850 Check list of students from watchlist.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
           "Id": "5aab8c2c-6ef1-483b-b4fe-d3b6b90064c0",
           "Path": "Hampton\\Section ID (1641) - Home\\5849 Check Main Page Vidgets.tstest",
           "PathType": 0
@@ -308,15 +396,12 @@
       "__type": "ArtOfTest.WebAii.Design.Execution.Filter",
       "__value": {
         "Keys": [
-          "CustomProperty1",
           "CustomProperty2"
         ],
         "Comparisons": [
-          "ArtOfTest.WebAii.Design.Execution.FilterComparison||Equals",
           "ArtOfTest.WebAii.Design.Execution.FilterComparison||Equals"
         ],
         "Values": [
-          "ready",
           "hampton"
         ]
       }

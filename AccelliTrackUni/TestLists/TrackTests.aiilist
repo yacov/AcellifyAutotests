@@ -45,7 +45,7 @@
         "WaitCheckInterval": 500,
         "ElementWaitTimeout": 30000,
         "ExecuteCommandTimeout": 20000,
-        "ExecutionDelay": 250,
+        "ExecutionDelay": 200,
         "UnexpectedDialogAction": 1,
         "AnnotateExecution": false,
         "AnnotationMode": 0,

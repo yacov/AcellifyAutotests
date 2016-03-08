@@ -27,8 +27,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "bf88bd58-f232-43ba-9e69-5286d9e17e42",
-            "Description": "Execute test 'LoginAsAdmin'",
-            "CustomDescription": null,
+            "Description": "Login As Admin",
+            "CustomDescription": "Login As Admin",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {

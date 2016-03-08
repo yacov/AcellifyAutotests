@@ -27,8 +27,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "28f9ae9a-4e1b-4afe-9703-8aca0a75476a",
-            "Description": "'LoginAsAdmin'",
-            "CustomDescription": "'LoginAsAdmin'",
+            "Description": "'Login As Admin'",
+            "CustomDescription": "'Login As Admin'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -68,14 +68,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "e8d2a95c-5bc5-4778-8f7d-1a36260e50d3",
-            "Description": "Navigate to : '/Administration/SchoolManager.aspx'",
+            "Description": "Go to SchoolManager",
             "CustomDescription": "Go to SchoolManager",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/Administration/SchoolManager.aspx",
-                "BaseUrl": "",
+                "BaseUrl": "http://va.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -214,7 +214,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolnumhhnhc.ss3",
+            "StepImageKey": "30112CreateSchoolNegativeNoNamejz4vqcub.3rm",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -328,7 +328,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "30112CreateSchoolNegativeNoNamejiafcjor.ccv",
+            "StepImageKey": "30112CreateSchoolNegativeNoNamevvjd2moz.tge",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -379,7 +379,7 @@
           "__value": {
             "Runtime ID": "5d9218d6-f687-4401-82e3-aa5ba9cfa99d",
             "Description": "Enter text '' in 'ScholUniqueIdText' - DataDriven: [$(schoolId)]",
-            "CustomDescription": null,
+            "CustomDescription": "Enter text from variable schoolId  in 'ScholUniqueIdText'",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
@@ -496,7 +496,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchool0g4f45sj.upp",
+            "StepImageKey": "30112CreateSchoolNegativeNoNamegysmbgiq.3ap",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -612,7 +612,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolixfvihzp.xwf",
+            "StepImageKey": "30112CreateSchoolNegativeNoNamewuue0r3l.gyu",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -623,7 +623,7 @@
           "__value": {
             "Runtime ID": "5a91c726-6129-49c7-b0e8-5cf58f7b75d6",
             "Description": "Click 'UiActiveMenuitemLink'",
-            "CustomDescription": "Click to ActiveMenu",
+            "CustomDescription": "Click to Menu",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
@@ -723,7 +723,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolps0yiwjv.xvw",
+            "StepImageKey": "30112CreateSchoolNegativeNoNamesdzj4yrq.4zt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -834,7 +834,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "3011CreateSchoolpmsj0uxz.u1y",
+            "StepImageKey": "30112CreateSchoolNegativeNoName3n00m2z4.rz5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -946,7 +946,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "30112CreateSchoolNegativeNoNameqcdyin1u.bnc",
+            "StepImageKey": "30112CreateSchoolNegativeNoNamextz5cy3p.b0e",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1060,7 +1060,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
-            "StepImageKey": "30112CreateSchoolNegativeNoNamez3hh4ci4.ysh",
+            "StepImageKey": "30112CreateSchoolNegativeNoNameu0vsnxf4.tnu",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
