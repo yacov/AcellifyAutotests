@@ -408,7 +408,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section ID (1648) - Administration - Caseload\\GoToCaseLoadManager.resx",
+    "ResourceFilePath": "Hampton\\Administration - Caseload\\GoToCaseLoadManager.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -442,7 +442,7 @@
     "Description": "",
     "Name": "GoToCaseLoadManager",
     "Owner": "",
-    "Path": "Hampton\\Section ID (1648) - Administration - Caseload\\GoToCaseLoadManager.tstest",
+    "Path": "Hampton\\Administration - Caseload\\GoToCaseLoadManager.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "b6de33dc-a790-4019-9064-388cf721f93b",

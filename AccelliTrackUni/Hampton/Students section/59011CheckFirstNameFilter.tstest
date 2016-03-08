@@ -1535,7 +1535,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "AccelliTrackUni._9011CheckFirstNameFilter",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\59011CheckFirstNameFilter.resx",
+    "ResourceFilePath": "Hampton\\Students section\\59011CheckFirstNameFilter.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1570,7 +1570,7 @@
     "Description": "",
     "Name": "59011CheckFirstNameFilter",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\59011CheckFirstNameFilter.tstest",
+    "Path": "Hampton\\Students section\\59011CheckFirstNameFilter.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "af9995c2-2e22-4f1d-8bd2-bb791eb5955d",

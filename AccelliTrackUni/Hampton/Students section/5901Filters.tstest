@@ -1356,7 +1356,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\5901Filters.resx",
+    "ResourceFilePath": "Hampton\\Students section\\5901Filters.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1391,7 +1391,7 @@
     "Description": "",
     "Name": "5901Filters",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\5901Filters.tstest",
+    "Path": "Hampton\\Students section\\5901Filters.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "a51e96f7-ac25-4a58-bc32-87cef4559707",

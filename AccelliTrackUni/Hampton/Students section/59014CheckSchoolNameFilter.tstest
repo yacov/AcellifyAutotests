@@ -1089,7 +1089,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "AccelliTrackUni._9014CheckSchoolNameFilter",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\59014CheckSchoolNameFilter.resx",
+    "ResourceFilePath": "Hampton\\Students section\\59014CheckSchoolNameFilter.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1124,7 +1124,7 @@
     "Description": "",
     "Name": "59014CheckSchoolNameFilter",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\59014CheckSchoolNameFilter.tstest",
+    "Path": "Hampton\\Students section\\59014CheckSchoolNameFilter.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e3563dd2-f544-4289-ab3d-b07db4c24309",

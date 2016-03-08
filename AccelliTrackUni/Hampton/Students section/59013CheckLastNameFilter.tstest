@@ -1600,7 +1600,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "AccelliTrackUni._9013CheckLastNameFilter",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\59013CheckLastNameFilter.resx",
+    "ResourceFilePath": "Hampton\\Students section\\59013CheckLastNameFilter.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1635,7 +1635,7 @@
     "Description": "",
     "Name": "59013CheckLastNameFilter",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\59013CheckLastNameFilter.tstest",
+    "Path": "Hampton\\Students section\\59013CheckLastNameFilter.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "8eeee7a2-04a2-492d-8e5a-07882dcb5601",

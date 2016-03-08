@@ -1090,7 +1090,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\59012CheckIDFilter.resx",
+    "ResourceFilePath": "Hampton\\Students section\\59012CheckIDFilter.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1125,7 +1125,7 @@
     "Description": "",
     "Name": "59012CheckIDFilter",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\59012CheckIDFilter.tstest",
+    "Path": "Hampton\\Students section\\59012CheckIDFilter.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "3914041d-a302-4d30-b479-e662954bb9df",

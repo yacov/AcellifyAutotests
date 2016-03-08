@@ -1363,7 +1363,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\Eligibility.resx",
+    "ResourceFilePath": "Hampton\\Students section\\Eligibility.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1396,7 +1396,7 @@
     "Description": "",
     "Name": "Eligibility",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\Eligibility.tstest",
+    "Path": "Hampton\\Students section\\Eligibility.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "c0e04eb7-3772-40ae-9080-129ac0c16f6b",

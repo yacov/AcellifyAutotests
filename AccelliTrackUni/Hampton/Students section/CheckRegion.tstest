@@ -3102,7 +3102,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "AccelliTrackUni.CheckRegion",
     "IsManual": false,
-    "ResourceFilePath": "Hampton\\Section Id (1660) Students section\\CheckRegion.resx",
+    "ResourceFilePath": "Hampton\\Students section\\CheckRegion.resx",
     "HasCodeBehind": true,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -3135,7 +3135,7 @@
     "Description": "",
     "Name": "CheckRegion",
     "Owner": "",
-    "Path": "Hampton\\Section Id (1660) Students section\\CheckRegion.tstest",
+    "Path": "Hampton\\Students section\\CheckRegion.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "5b24606e-9a1f-40bb-914e-7ccd0effc24e",
