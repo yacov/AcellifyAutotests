@@ -79,7 +79,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
-                "BaseUrl": "",
+                "BaseUrl": "http://broward.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -117,12 +117,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "2fd701b7-7870-4846-82de-b5e467b30e56",
-            "Description": "Enter text 'testProvider' in 'UserName'",
+            "Description": "Enter text 'BROIEP520' in 'UserName'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "testProvider",
+                "RawText": "BROIEP520",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -241,12 +241,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "77d5e42e-dc0a-48f8-a7aa-0667ab5801c4",
-            "Description": "Enter text 'success' in 'Pass'",
+            "Description": "Enter text 'beverly' in 'Pass'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "success",
+                "RawText": "beverly",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,

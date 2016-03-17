@@ -1,10 +1,10 @@
 {
   "__type": "ArtOfTest.WebAii.Design.Execution.TestList",
   "__value": {
-    "TestListId": "6bc24849-e68f-4209-9214-61ead9c50114",
-    "Id": "6bc24849-e68f-4209-9214-61ead9c50114",
-    "TestListName": "Efsp",
-    "CreationDate": "2016-02-29T10:47:21",
+    "TestListId": "48e97d6b-324d-47a0-a599-f37a2bc6aa30",
+    "Id": "48e97d6b-324d-47a0-a599-f37a2bc6aa30",
+    "TestListName": "Performance",
+    "CreationDate": "2016-03-16T17:05:16",
     "OwnerName": null,
     "Settings": {
       "__type": "ArtOfTest.WebAii.Core.Settings",
@@ -12,7 +12,7 @@
         "Web": {
           "__type": "ArtOfTest.WebAii.Core.Settings+WebSettings",
           "__value": {
-            "IsProfilingExecution": false,
+            "IsProfilingExecution": true,
             "ExecutingBrowsers": [],
             "UseMultiBrowserExecution": false,
             "RecycleBrowser": false,
@@ -58,8 +58,16 @@
       {
         "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
         "__value": {
-          "Id": "23065af1-ea02-49d8-a0a0-2a614f62bdff",
-          "Path": "Hampton\\Methods\\FillForms\\IFSP\\IFSP_Data_Form_Datadriven.tstest",
+          "Id": "02469485-b5b7-4b5a-ac35-ce0bdd3f9c9f",
+          "Path": "PerformanceTests\\PerformanceBroward.tstest",
+          "PathType": 0
+        }
+      },
+      {
+        "__type": "ArtOfTest.WebAii.Design.Execution.TestInfo",
+        "__value": {
+          "Id": "518a7156-0ac6-4cc0-9201-ffe5b28eaf09",
+          "Path": "PerformanceTests\\CheckTrackRecord.tstest",
           "PathType": 0
         }
       }
@@ -72,7 +80,7 @@
         "Values": []
       }
     },
-    "ListType": 0,
+    "ListType": 2,
     "ProjectId": "da260b84-0f05-48db-870e-0693f7d5bba9"
   }
 }
