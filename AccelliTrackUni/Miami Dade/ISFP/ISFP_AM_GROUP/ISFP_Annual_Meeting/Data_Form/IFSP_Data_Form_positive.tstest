@@ -67,18 +67,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0107a550-7702-427c-8d6c-de23c2b9d375",
-            "Description": "Login As Admin Hampton",
-            "CustomDescription": "Login As Admin Hampton",
+            "Runtime ID": "f9be4db9-a4bb-4b80-bdd0-8828a3fca1e5",
+            "Description": "Execute test 'LoginAsAdminIFSPNoIEP'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginAsAdminHampton",
-                "TestPath": "Hampton\\Methods\\LoginAsAdminHampton.tstest",
-                "TestUniqueId": "1df0a88b-4ac4-4433-81fc-e59e591bd964",
+                "TestName": "LoginAsAdminIFSPNoIEP",
+                "TestPath": "Miami Dade\\ISFP\\LoginAsAdminIFSPNoIEP.tstest",
+                "TestUniqueId": "1dcaf8a3-8406-462d-9cf2-aa44f8ae1806",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -99,7 +99,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "IFSP_Data_Formuj5jzm01.1lq",
+            "StepImageKey": "IFSP_Data_Form_positivec5wp10gr.qwc",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -109,14 +109,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a94c8370-af8e-4735-b023-3ac0c007b07d",
-            "Description": "Navigate to : '/IEP/Students/ViewStudent?commonStudentId=51813'",
+            "Description": "Go to student (10 years) event page",
             "CustomDescription": "Go to student (10 years) event page",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/IEP/Students/ViewStudent?commonStudentId=51813",
-                "BaseUrl": "http://hampton.acceliqc.com",
+                "BaseUrl": "http://miami-demo.accelidemo.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,

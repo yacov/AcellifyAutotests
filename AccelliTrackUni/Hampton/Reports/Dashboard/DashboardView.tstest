@@ -162,7 +162,7 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
                           "uniqueKey": "M0xLIlTXc6FTVBydXx5QnbUp0XE=",
                           "NodeKind": 4,
