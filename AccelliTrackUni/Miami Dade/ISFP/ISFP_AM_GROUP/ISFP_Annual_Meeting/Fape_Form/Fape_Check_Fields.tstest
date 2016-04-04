@@ -27,8 +27,8 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "d34f48e1-cc9f-4589-854e-7e89bf981152",
-            "Description": "Execute test 'LoginAsAdminIFSPNoIEP'",
-            "CustomDescription": null,
+            "Description": "Login As Admin",
+            "CustomDescription": "Login As Admin",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
@@ -68,13 +68,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "13f382ad-3f72-4a30-9b24-fd23a0157582",
-            "Description": "Navigate to : '/IEP/Events/ViewEvent?EventId=361ad431-b6d1-4050-ae1b-a5cc00a4e528#FAPE&formId=0e88b491-6c41-4aa6-98f7-a5cc00a4e557'",
+            "Description": "Go to Fape Form",
             "CustomDescription": "Go to Fape Form",
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "/IEP/Events/ViewEvent?EventId=361ad431-b6d1-4050-ae1b-a5cc00a4e528#FAPE&formId=0e88b491-6c41-4aa6-98f7-a5cc00a4e557",
+                "NavigateURL": "/IEP/Events/ViewEvent?eventId=3ba0eaa9-a8e7-48c1-a0cb-a5db00334097#FAPE&formId=8152fcee-f49f-4a23-83af-a5db003340bc",
                 "BaseUrl": "http://miami-demo.accelidemo.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
@@ -113,7 +113,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "ce33fecd-677f-48b8-923d-a7f77f89ee76",
-            "Description": "Enter text 'Description' in 'FormFieldValues4f70b910521b4c0990b36deb956cf528ValueStringTextArea'",
+            "Description": "Enter text 'Description' in 'EvaluationDescriptionOfTheActionProposed'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -177,7 +177,7 @@
                           "uniqueKey": "txk5641RVLWBkdbDUpIF5LucpWc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValues4f70b910521b4c0990b36deb956cf528ValueStringTextArea",
+                          "Name": "EvaluationDescriptionOfTheActionProposed",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -238,8 +238,118 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "dadf9bfe-3066-43d6-bd60-b7b8faaaf6f6",
+            "Description": "Verify 'ProvisionOfFAPEDescriptionOfTheActionProposed' is enabled",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.EnabledVerificationDescriptor",
+              "__value": {
+                "IsEnabled": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "TargetKey1": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "TargetKey1",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://miami-demo.accelidemo.com/IEP/Events/ViewEvent",
+                          "Query": "?eventId=3941d2dd-fefe-4952-952a-a5a3009bdc2e",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "#PresentLevels&formId=9f4788af-57e1-40c6-abfc-a5a3009bdcac",
+                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyInitialIEPFor"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "Pr8Ny3hEJVJHEEjM2BZvmTz+bxc=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ProvisionOfFAPEDescriptionOfTheActionProposed",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=textarea"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "field-key=ProvisionOfFAPEDescriptionOfTheActionProposed"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[6]/div[2]/div[2]/span[1]/textarea[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlTextArea",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Fape_Check_Fieldsu2npqfli.o33",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "b944a319-62d3-4d54-940d-4329a4c676b1",
-            "Description": "Enter text 'Explanation' in 'FormFieldValues485dc4e179dc4a55B04bAa8ac794db30ValueStringTextArea'",
+            "Description": "Enter text 'Explanation' in 'EvaluationExplanationOfWhyThisActionIsBeing'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -303,7 +413,7 @@
                           "uniqueKey": "FergED8Mv8DrWkoVHl5fxdOLSWc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValues485dc4e179dc4a55B04bAa8ac794db30ValueStringTextArea",
+                          "Name": "EvaluationExplanationOfWhyThisActionIsBeing",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -314,13 +424,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "field-key=EvaluationExplanationOfWhyThisActionIsBeing"
+                                        "Clause": "tagname=textarea"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=textarea"
+                                        "Clause": "field-key=EvaluationExplanationOfWhyThisActionIsBeing"
                                       }
                                     }
                                   ],
@@ -351,7 +461,7 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -464,7 +574,7 @@
               }
             },
             "Enabled": true,
-            "Order": 5,
+            "Order": 6,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -577,7 +687,7 @@
               }
             },
             "Enabled": true,
-            "Order": 6,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -591,7 +701,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "fcf5982b-6bf2-4cc5-80d8-1882f6b02f89",
-            "Description": "Enter text 'Action refused' in 'FormFieldValuesEcfa03d9D71047f7B48790278aa1b03aValueStringTextArea'",
+            "Description": "Enter text 'Action refused' in 'EvaluationDescriptionOfAnyActionBeingRefused'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -655,7 +765,7 @@
                           "uniqueKey": "LS/ivJe6SMagcGBTIO/BpzaQD9A=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValuesEcfa03d9D71047f7B48790278aa1b03aValueStringTextArea",
+                          "Name": "EvaluationDescriptionOfAnyActionBeingRefused",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -666,13 +776,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "field-key=EvaluationDescriptionOfAnyActionBeingRefused"
+                                        "Clause": "tagname=textarea"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=textarea"
+                                        "Clause": "field-key=EvaluationDescriptionOfAnyActionBeingRefused"
                                       }
                                     }
                                   ],
@@ -703,7 +813,7 @@
               }
             },
             "Enabled": true,
-            "Order": 7,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -717,7 +827,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "a6adea54-d150-4b56-9b2a-aa41d378f089",
-            "Description": "Enter text 'Expl refused' in 'FormFieldValues8f6f1a063d554ccdBb18Cfc6cfa12fefValueStringTextArea'",
+            "Description": "Enter text 'Expl refused' in 'EvaluationExplanationOfWhyThatActionIsBeingRefused'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -781,7 +891,7 @@
                           "uniqueKey": "IfCGJykQWfpkHTbOqoVWR2c5G3s=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValues8f6f1a063d554ccdBb18Cfc6cfa12fefValueStringTextArea",
+                          "Name": "EvaluationExplanationOfWhyThatActionIsBeingRefused",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -792,13 +902,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "field-key=EvaluationExplanationOfWhyThatActionIsBeingRefused"
+                                        "Clause": "tagname=textarea"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=textarea"
+                                        "Clause": "field-key=EvaluationExplanationOfWhyThatActionIsBeingRefused"
                                       }
                                     }
                                   ],
@@ -829,7 +939,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -940,122 +1050,11 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "Fape_Check_Fieldstuovuohe.huo",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "4489704f-0a11-4505-97c3-02b495ff88f5",
-            "Description": "Click 'IsNoLongerLabelTag'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": true,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "http://miami-demo.accelidemo.com/IEP/Events/ViewEvent",
-                          "Query": "?eventId=3941d2dd-fefe-4952-952a-a5a3009bdc2e",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "#PresentLevels&formId=9f4788af-57e1-40c6-abfc-a5a3009bdcac",
-                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "Xq5obK6w+Xdr+iUs7qwarthtH9Y=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "IsNoLongerLabelTag",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=^Is no longer el"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=label"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/div[2]/div[4]/div[2]/div[3]/span[1]/label[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
             "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Fape_Check_Fieldszbaric5n.qp2",
+            "StepImageKey": "Fape_Check_Fieldstuovuohe.huo",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1512,8 +1511,245 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
+            "Runtime ID": "eef89b52-da7a-4733-97da-c51697f29cd7",
+            "Description": "KendoMenu 'Root option AcceliTrack' action: Click",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Menu.KendoMenuItemClick",
+              "__value": {
+                "MenuItemText": "AcceliTrack",
+                "CustomPrefix": "KendoMenu",
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "KendoMenu": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "KendoMenu",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://miami-demo.accelidemo.com/IEP/",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Home",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyHome2"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "OzI6kgqCB2kB3U5S5o7YSHrQ4yM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ListItem",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "data-role=menu"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "GroupIndex=0"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=li"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=li:49"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    2
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[1]/ul[1]/li[8]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoMenuItem",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 15,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Fape_Check_Fieldsqwi4n0ah.xbq",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "5faeaf96-6f52-4411-9de5-5b677f12ba0b",
+            "Description": "Click 'StudentManagerLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "http://miami-demo.accelidemo.com/AcceliTrack/Home.aspx",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "AcceliTrack - Welcome to AcceliTrack provider area!",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AcceliTrackWelcomeTo3"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "RV57dwcdHvsZ2o4YC0rr6XUdKDs=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "StudentManagerLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=../Administration/StudentManager.aspx"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/div[4]/div[1]/div[13]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 16,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Fape_Check_Fieldspi1eh34z.mgi",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
             "Runtime ID": "3eb837b6-7078-4a32-ba15-20a97be094dc",
-            "Description": "Enter text 'Explanatino why proposed' in 'FormFieldValues851ba5913b834e12A8e5Ee1ca033c96fValueStringTextArea'",
+            "Description": "Enter text 'Explanatino why proposed' in 'EducationalPlacementExplanationOfWhyThisActionIsBeingProposed'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -1577,7 +1813,7 @@
                           "uniqueKey": "iGtq0An4MG0jtskzZKKPOuVuAcU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValues851ba5913b834e12A8e5Ee1ca033c96fValueStringTextArea",
+                          "Name": "EducationalPlacementExplanationOfWhyThisActionIsBeingProposed",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1625,7 +1861,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 17,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1639,7 +1875,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "94880c0b-1332-4aa9-b585-4eb088e4e49e",
-            "Description": "Enter text 'Explanation why refused again' in 'FormFieldValuesCc14e9f34672433495e6Ccef92cabaa6ValueStringTextArea'",
+            "Description": "Enter text 'Explanation why refused again' in 'ExplanationOfAnyRequestForChangeInPlacement'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
@@ -1703,7 +1939,7 @@
                           "uniqueKey": "XnUCYoKn594Kh5OyNMwUOd8IbF8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValuesCc14e9f34672433495e6Ccef92cabaa6ValueStringTextArea",
+                          "Name": "ExplanationOfAnyRequestForChangeInPlacement",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1751,7 +1987,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 18,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1862,7 +2098,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 19,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,

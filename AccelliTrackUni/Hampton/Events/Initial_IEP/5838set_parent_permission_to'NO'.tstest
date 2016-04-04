@@ -258,8 +258,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6d7487c9-6e90-4e48-b484-899f02cf4ca4",
-            "Description": "Click 'TransitionLink'",
+            "Runtime ID": "c3f5d966-be0b-4e57-a105-a6332f164fc3",
+            "Description": "Click 'ConsentFormLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -305,12 +305,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "xGjYmyFwb5w5wEp8aZFSOttk3Dc=",
+                          "uniqueKey": "Ukv5XnAbRRQ+pb9CbiavVaOH1Fc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "TransitionLink",
+                          "Name": "ConsentFormLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -321,7 +321,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#TransitionForms"
+                                        "Clause": "id=pnlEventMenuCell"
                                       }
                                     },
                                     {
@@ -329,15 +329,29 @@
                                       "__value": {
                                         "Clause": "tagname=a"
                                       }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=#ConsentForm"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Consent Form"
+                                      }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[13]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[19]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -360,7 +374,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "5838set_parent_permission_to'NO'5cyjd44c.5u1",
+            "StepImageKey": "5838set_parent_permission_to'NO'uu1mskwj.qys",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -478,226 +492,6 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "79e33d4e-e293-48bb-a94b-801a0855c3b0",
-            "Description": "Click 'ParentLink'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
-              "__value": {
-                "SimulateRealClick": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
-                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor26"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "xbz+01gsMx+EwgCiLHHdVVCxrh8=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "ParentLink",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=pnlEventOverview"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Parent Permission To IEP"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/table[1]/tbody[1]/tr[51]/td[6]/a[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 7,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "5838w0v2m0dw.zki",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "89fba493-f5fb-439e-935f-d4f1d8222bcf",
-            "Description": "Wait for ExistsNot 'LoadingDiv'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExistsVerificationDescriptor",
-              "__value": {
-                "ExistsNot": true,
-                "WaitOnElements": true,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Students",
-                          "Query": "",
-                          "BaseUrl": "http://hampton-demo.accelidemo.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - Students",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyStudents0"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "yysOhroxmW/4nLLYJTOYto6BTlg=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "LoadingDiv",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=div"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=^Loading"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[10]/div[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 1,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 8,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "5838xwtnfd32.tne",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
             "Runtime ID": "8261f5b5-4439-4f1d-8f7e-5f456b0482ad",
             "Description": "Click 'radParentPermitionNO'",
             "CustomDescription": "Click on Radio Button \"Parent Permition NO\"",
@@ -802,7 +596,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -911,7 +705,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1035,7 +829,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1144,7 +938,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
@@ -1253,7 +1047,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1364,125 +1158,11 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "5838set_parent_permission_to'NO'x1i5kpnu.4de",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e1f5ab8f-510b-4514-9c5e-a159012ee672",
-            "Description": "Verify 'TextContent' 'Contains' 'Form has been updated successfully.' on 'PnlFormConfirmDiv'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
-              "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "Form has been updated successfully.",
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "textTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "textTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "http://hampton.acceliqc.com/IEP/Events/ViewEvent",
-                          "Query": "?eventId=4d52ed69-174d-4076-875e-a5ac000f11c2",
-                          "BaseUrl": "",
-                          "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=c01b17de-2dfb-45bd-aec0-a5ac000f12f5",
-                          "Title": "Accelify - Notice of Meeting - Initial IEP for Eli Aaron",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNoticeOfMeeting2"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "YahchYRpaYouA5rgj7Dzi0WsRws=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "PnlFormConfirmDiv",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=pnlFormConfirm"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=div"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlDiv",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 2,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 15,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "5838set_parent_permission_to'NO'wyvx5vxu.qqq",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -1977,7 +1657,7 @@
               "uniqueKey": "YZ4/YXVVufFh7rsFab6YoPVue9U=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "RowToDelete",
+              "Name": "RowToDelete0",
               "FindExpressions": [
                 {
                   "Key": 1,

@@ -414,7 +414,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "xbz+01gsMx+EwgCiLHHdVVCxrh8=",
+                          "uniqueKey": "b0uqQnPr1m1aV4s3isM8TMuFzOE=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ParentLink",
@@ -434,7 +434,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Parent Permission To IEP"
+                                        "Clause": "TextContent=~Consent form"
                                       }
                                     }
                                   ],
@@ -1476,7 +1476,7 @@
     "QcId": 0,
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
-    "CustomProperty1": "ready",
+    "CustomProperty1": "",
     "CustomProperty2": "hampton",
     "CustomProperty3": "1638",
     "TestLinks": [],

@@ -13,12 +13,12 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2015.3.1015.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2015.3.1314.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -688,124 +688,6 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d0c2e7d9-e9a7-4cf5-8151-d6e93d80aca0",
-            "Description": "KendoInput: Combo open ",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.InputComboToggle",
-              "__value": {
-                "ComboOpened": "False",
-                "CustomPrefix": "KendoInput",
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
-                  }
-                },
-                "Elements": {
-                  "KendoInput": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "KendoInput",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/IEP/Events/ViewEvent",
-                          "Query": "?eventId=b974779d-1626-40a6-bcdc-a59900f675ba",
-                          "BaseUrl": "https://hampton-pilot.acceliplan.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#Goals",
-                          "Title": "Accelify - Initial IEP for R'Leiya Aaron",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyInitialIEPFor26"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "967Sd/kueXewjJZYWrrxNgyGLF4=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "Span02",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=span"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "class=~k-widget"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "GroupIndex=5"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[30]/div[2]/form[1]/div[1]/div[4]/div[2]/span[1]",
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoInput",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 7,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": true,
-            "StepImageKey": "FillGoalSectionrb5qvodp.fy1",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
             "Runtime ID": "df9b72e9-b02f-47fa-afee-a7364688262f",
             "Description": "KendoListBox: select item by text 'Preschool' - DataDriven: [$(Col3)]",
             "CustomDescription": null,
@@ -909,7 +791,7 @@
               }
             },
             "Enabled": true,
-            "Order": 8,
+            "Order": 7,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1015,7 +897,7 @@
               }
             },
             "Enabled": true,
-            "Order": 9,
+            "Order": 8,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1131,7 +1013,7 @@
               }
             },
             "Enabled": true,
-            "Order": 10,
+            "Order": 9,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1237,7 +1119,7 @@
               }
             },
             "Enabled": true,
-            "Order": 11,
+            "Order": 10,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1351,7 +1233,7 @@
               }
             },
             "Enabled": true,
-            "Order": 12,
+            "Order": 11,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1457,7 +1339,7 @@
               }
             },
             "Enabled": true,
-            "Order": 13,
+            "Order": 12,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1570,7 +1452,7 @@
               }
             },
             "Enabled": true,
-            "Order": 14,
+            "Order": 13,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1584,12 +1466,12 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c59f866e-2a66-481b-a7dd-e1dd8ee60608",
-            "Description": "Enter text 'Custom' in 'NameText' - DataDriven: [$(Col5)]",
+            "Description": "Enter text '' in 'NameText' - DataDriven: [$(Col5)]",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "Custom",
+                "RawText": "",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
@@ -1704,7 +1586,7 @@
               }
             },
             "Enabled": true,
-            "Order": 15,
+            "Order": 14,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1815,7 +1697,7 @@
               }
             },
             "Enabled": true,
-            "Order": 16,
+            "Order": 15,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -1926,7 +1808,7 @@
               }
             },
             "Enabled": true,
-            "Order": 17,
+            "Order": 16,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": true,
@@ -2823,7 +2705,7 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "Siute_1638_Events_Initial_IEP.dll",
+    "TestAssembly": "AccelliTrackUni.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
@@ -2847,7 +2729,7 @@
             "Col2": "4",
             "Col3": "Preschool",
             "Col4": "Listening and  Speaking",
-            "Col5": "Goal number one"
+            "Col5": "CustomGoal"
           }
         ],
         "BuiltInDocumentKey": null,

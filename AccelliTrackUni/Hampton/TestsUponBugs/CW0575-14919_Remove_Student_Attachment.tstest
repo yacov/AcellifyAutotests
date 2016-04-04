@@ -307,10 +307,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "2ET3GztLMBH0IwXxppZJ/rsv8kg=",
+                          "uniqueKey": "q/QNdIPRmDM5HTZOpq3rQBLu7w0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "InitialIEPLink0",
+                          "Name": "InitialIEPLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -321,13 +321,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=/IEP/Events/ViewEvent?eventId=858371b3-adc2-4cd6-a382-a5bf0077e288"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TextContent=Initial IEP"
                                       }
                                     }
                                   ],
@@ -337,7 +337,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[4]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[27]/td[3]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[4]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[6]/td[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -411,6 +411,7 @@
     "QcFilePath": null,
     "QcTestVersionStamp": 0,
     "CustomProperty1": "todo",
+    "CustomProperty2": "hampton",
     "TestLinks": [],
     "Description": "",
     "Name": "CW0575-14919_Remove_Student_Attachment",

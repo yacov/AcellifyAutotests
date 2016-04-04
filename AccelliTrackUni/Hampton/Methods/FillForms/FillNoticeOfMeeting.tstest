@@ -1447,9 +1447,17 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": false,
-        "DataType": 4,
-        "BuiltInData": null,
+        "HasBuiltinGrid": true,
+        "DataType": 0,
+        "BuiltInData": [
+          {
+            "Col1": "MeetingData",
+            "Col2": "MeetingTime",
+            "Col3": null,
+            "Col4": null,
+            "Col5": null
+          }
+        ],
         "BuiltInDocumentKey": null,
         "TSQL": ""
       }

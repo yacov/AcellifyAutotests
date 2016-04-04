@@ -34,6 +34,14 @@
                   "__value": {
                     "IsLocked": false,
                     "SearchType": 0,
+                    "AttributeName": "aria-owns"
+                  }
+                },
+                {
+                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
+                  "__value": {
+                    "IsLocked": false,
+                    "SearchType": 0,
                     "AttributeName": "field-key"
                   }
                 },
@@ -202,7 +210,7 @@
     ],
     "ScheduleServerUrl": "http://iakov:8009/",
     "IsScheduleServerRemote": true,
-    "ProjectVersion": "2015.3.1429.0",
+    "ProjectVersion": "2016.1.321.0",
     "Namespace": "AccelliTrackUni",
     "AssemblyName": "AccelliTrackUni",
     "OutputFolder": "bin",
@@ -236,7 +244,7 @@
               }
             }
           },
-          "CurrentVersion": "2015.3.1429.0",
+          "CurrentVersion": "2016.1.330.0",
           "XmlBlob": null
         }
       }
